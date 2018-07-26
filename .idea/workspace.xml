@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c0bf2eb-3536-432a-9687-3f3c53d49445" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptions/target/exceptions.jar" beforeDir="false" afterPath="$PROJECT_DIR$/exceptions/target/exceptions.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exceptions/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/exceptions/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liquibase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liquibase/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sample-dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-dao/target/sample-dao.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sample-dao/target/sample-dao.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-ear/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sample-ear/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-ear/target/rest.ear" beforeDir="false" afterPath="$PROJECT_DIR$/sample-ear/target/rest.ear" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-ear/target/rest/lib/exceptions-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sample-ear/target/rest/lib/exceptions-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-ear/target/rest/lib/sample-persistence-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sample-ear/target/rest/lib/sample-persistence-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-ear/target/rest/sample-dao-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sample-ear/target/rest/sample-dao-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-ear/target/rest/sample-rest-1.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/sample-ear/target/rest/sample-rest-1.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-ear/target/rest/sample-service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sample-ear/target/rest/sample-service-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-ear/target/temp/sample-dao-1.0.jar/META-INF/maven/final-project-javaee-app/sample-dao/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sample-ear/target/temp/sample-dao-1.0.jar/META-INF/maven/final-project-javaee-app/sample-dao/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-ear/target/temp/sample-rest-1.0.war/META-INF/maven/final-project-javaee-app/sample-rest/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sample-ear/target/temp/sample-rest-1.0.war/META-INF/maven/final-project-javaee-app/sample-rest/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-ear/target/temp/sample-service-1.0.jar/META-INF/maven/final-project-javaee-app/sample-service/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sample-ear/target/temp/sample-service-1.0.jar/META-INF/maven/final-project-javaee-app/sample-service/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-persistence/src/main/java/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/sample-persistence/src/main/java/model/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-persistence/src/main/java/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/sample-persistence/src/main/java/model/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-persistence/src/main/java/model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/sample-persistence/src/main/java/model/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-persistence/src/main/java/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/sample-persistence/src/main/java/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-persistence/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sample-persistence/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-persistence/target/sample-persistence.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sample-persistence/target/sample-persistence.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-rest/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sample-rest/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-rest/target/sample-rest.war" beforeDir="false" afterPath="$PROJECT_DIR$/sample-rest/target/sample-rest.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-rest/target/sample-rest/WEB-INF/lib/exceptions-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sample-rest/target/sample-rest/WEB-INF/lib/exceptions-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-rest/target/sample-rest/WEB-INF/lib/sample-dao-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sample-rest/target/sample-rest/WEB-INF/lib/sample-dao-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-rest/target/sample-rest/WEB-INF/lib/sample-persistence-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sample-rest/target/sample-rest/WEB-INF/lib/sample-persistence-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-rest/target/sample-rest/WEB-INF/lib/sample-service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sample-rest/target/sample-rest/WEB-INF/lib/sample-service-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sample-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample-service/target/sample-service.jar" beforeDir="false" afterPath="$PROJECT_DIR$/sample-service/target/sample-service.jar" afterDir="false" />
-    </list>
+    <list default="true" id="9c0bf2eb-3536-432a-9687-3f3c53d49445" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/sample-dao/target/" />
     <ignored path="$PROJECT_DIR$/sample-rest/target/" />
     <ignored path="$PROJECT_DIR$/liquibase/target/" />
@@ -65,14 +34,14 @@
         <counts>
           <entry key="java" value="30" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="3" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="30" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -93,11 +62,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liquibase/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sample-persistence/src/main/java/model/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="60" column="76" selection-start-line="60" selection-start-column="76" selection-end-line="60" selection-end-column="76" />
+            <state relative-caret-position="372">
+              <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,11 +93,11 @@
       <list>
         <option value="$PROJECT_DIR$/sample-rest/src/main/java/rest/boundary/HibernateValidator.java" />
         <option value="$PROJECT_DIR$/sample-persistence/pom.xml" />
-        <option value="$PROJECT_DIR$/liquibase/pom.xml" />
         <option value="$PROJECT_DIR$/sample-persistence/src/main/java/model/Department.java" />
         <option value="$PROJECT_DIR$/sample-persistence/src/main/java/model/Address.java" />
         <option value="$PROJECT_DIR$/sample-persistence/src/main/java/model/Country.java" />
         <option value="$PROJECT_DIR$/sample-persistence/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/liquibase/pom.xml" />
       </list>
     </option>
   </component>
@@ -159,37 +137,7 @@
             <path>
               <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaEE-Backend-App" type="462c0819:PsiDirectoryNode" />
-              <item name="sample-persistence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEE-Backend-App" type="462c0819:PsiDirectoryNode" />
-              <item name="sample-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEE-Backend-App" type="462c0819:PsiDirectoryNode" />
-              <item name="sample-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEE-Backend-App" type="462c0819:PsiDirectoryNode" />
-              <item name="sample-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEE-Backend-App" type="462c0819:PsiDirectoryNode" />
-              <item name="sample-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="liquibase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,12 +184,12 @@
       <workItem from="1532590948831" duration="494000" />
       <workItem from="1532592572255" duration="299000" />
       <workItem from="1532595646985" duration="913000" />
-      <workItem from="1532601727024" duration="3402000" />
+      <workItem from="1532601727024" duration="3671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8937000" />
+    <option name="totallyTimeSpent" value="9206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
@@ -351,13 +299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liquibase/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample-persistence/src/main/java/model/Country.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -391,10 +332,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/liquibase/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sample-persistence/src/main/java/model/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="60" column="76" selection-start-line="60" selection-start-column="76" selection-end-line="60" selection-end-column="76" />
+        <state relative-caret-position="372">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

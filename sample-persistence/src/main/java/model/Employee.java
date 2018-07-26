@@ -47,7 +47,7 @@ public class Employee  implements Serializable {
     @Column(name = "phone_number")
     private String phoneNumber;
 
-    @Email
+    @Pattern(regexp = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$")
     @NotBlank
     @Column(name = "email")
     private String email;

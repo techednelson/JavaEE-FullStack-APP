@@ -1,0 +1,8 @@
+service/DepartmentService.class
+jms/MailProducerJMS.class
+service/MailService.class
+jms/MailMessageDrivenBean.class
+service/EmployeeService.class
+service/MailServiceImpl.class
+service/EmployeeServiceImpl.class
+service/DepartmentServiceImpl.class

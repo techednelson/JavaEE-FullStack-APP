@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: nelson
+Class-Path: lib/sample-persistence-1.0.jar lib/javax.persistence-api-2
+ .2.jar lib/hibernate-validator-6.0.11.Final.jar lib/validation-api-2.
+ 0.1.Final.jar lib/jboss-logging-3.3.2.Final.jar lib/classmate-1.3.4.j
+ ar lib/log4j-core-2.7.jar lib/log4j-api-2.7.jar lib/javaee-api-8.0.ja
+ r lib/javax.mail-1.6.0.jar lib/activation-1.1.jar lib/exceptions-1.0.
+ jar
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_162
+

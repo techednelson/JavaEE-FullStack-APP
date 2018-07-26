@@ -1,0 +1,7 @@
+rest/filter/CacheControlFilter.class
+rest/boundary/DepartmentBoundary.class
+rest/boundary/EmployeeBoundary.class
+rest/resources/EmployeeResource.class
+rest/boundary/HibernateValidator.class
+rest/resources/DepartmentResource.class
+rest/config/RESTConfig.class

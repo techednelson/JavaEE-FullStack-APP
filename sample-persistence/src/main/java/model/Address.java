@@ -4,7 +4,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
-import javax.validation.constraints.NotNull;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
@@ -12,35 +12,30 @@ import javax.validation.constraints.Size;
 public class Address {
 
     @Pattern(regexp = "^\\b\\pL+(?:-\\pL+)*\\b")
-    @NotNull
-    @NotEmpty
+    @NotBlank
     @Column(name = "city")
     private String city;
 
     @Pattern(regexp = "^\\b\\pL+(?:-\\pL+)*\\b")
-    @NotNull
-    @NotEmpty
+    @NotBlank
     @Column(name = "country")
     private String country;
 
     @Size(min = 5, max = 35)
     @Pattern(regexp = "^[a-zA-Z\\s]*$")
-    @NotNull
-    @NotEmpty
+    @NotBlank
     @Column(name = "street")
     private String street;
 
     @Size(max = 3)
     @Pattern(regexp = "^\\d+")
-    @NotNull
-    @NotEmpty
+    @NotBlank
     @Column(name = "street_number")
     private String streetNumber;
 
     @Size(min = 6, max = 6)
     @Pattern(regexp = "^\\d+")
-    @NotNull
-    @NotEmpty
+    @NotBlank
     @Column(name = "zip_code")
     private String zipCode;
 

@@ -4,6 +4,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
 import javax.validation.Valid;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
@@ -24,8 +25,7 @@ public class Department implements Serializable {
     @Column(name = "department_id")
     private Integer id;
 
-    @NotNull
-    @NotEmpty
+    @NotBlank
     @Size(min = 3, max = 15)
     @Column(name = "department_name")
     private String name;

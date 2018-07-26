@@ -1,10 +1,11 @@
 package model;
 
+import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
 import javax.validation.Valid;
-import javax.validation.constraints.NotNull;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
@@ -25,45 +26,40 @@ public class Employee  implements Serializable {
 
     @Pattern(regexp = "^\\b\\pL+(?:-\\pL+)*\\b")
     @Size(min = 3, max = 15)
-    @NotNull
-    @NotEmpty
+    @NotBlank
     @Column(name = "first_name")
     private String firstName;
 
     @Pattern(regexp = "^\\b\\pL+(?:-\\pL+)*\\b")
     @Size(min = 3, max = 15)
-    @NotNull
-    @NotEmpty
+    @NotBlank
     @Column(name = "last_name")
     private String lastName;
 
-    @NotNull
-    @NotEmpty
+    @Pattern(regexp = "^(3[01]|[12][0-9]|0[1-9])/(1[0-2]|0[1-9])/[0-9]{4}$")
+    @NotBlank
     @Column(name = "birth_date")
     private String birthDate;
 
     @Pattern(regexp = "^\\d+")
     @Size(min = 10, max = 10)
-    @NotNull
-    @NotEmpty
+    @NotBlank
     @Column(name = "phone_number")
     private String phoneNumber;
 
-    @Pattern(regexp = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$")
-    @NotNull
-    @NotEmpty
+    @Email
+    @NotBlank
     @Column(name = "email")
     private String email;
 
     @Pattern(regexp = "^\\d+")
     @Size(max = 4)
-    @NotNull
-    @NotEmpty
+    @NotBlank
     @Column(name = "salary")
     private String salary;
 
-    @NotNull
-    @NotEmpty
+    @Pattern(regexp = "^(3[01]|[12][0-9]|0[1-9])/(1[0-2]|0[1-9])/[0-9]{4}$")
+    @NotBlank
     @Column(name = "join_date")
     private String joinDate;
 
@@ -71,7 +67,7 @@ public class Employee  implements Serializable {
     @Valid
     private Address address;
 
-    @NotNull
+    @NotBlank
     @ManyToOne
     @JoinColumn(name = "fk_department_id", referencedColumnName = "department_id")
     private Department department;

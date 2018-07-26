@@ -1,7 +1,7 @@
 package model;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 
 @Entity
@@ -16,12 +16,12 @@ public class Country {
     private Integer id;
 
     @Pattern(regexp = "^\\b\\pL+(?:-\\pL+)*\\b")
-    @NotNull
+    @NotBlank
     @Column(name="country_name")
     private String name;
 
     @Pattern(regexp = "^\\b\\pL+(?:-\\pL+)*\\b")
-    @NotNull
+    @NotBlank
     @Column(name="city")
     private String city;
 

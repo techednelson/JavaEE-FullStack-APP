@@ -4,10 +4,12 @@ import dao.EmployeeDAO;
 import model.Employee;
 
 import javax.ejb.EJB;
+import javax.ejb.Local;
 import javax.ejb.Stateless;
 import java.util.List;
 
 @Stateless
+@Local(EmployeeService.class)
 public class EmployeeServiceImpl implements EmployeeService{
 
     @EJB

@@ -4,6 +4,7 @@ import model.Employee;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import javax.ejb.Local;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -11,6 +12,7 @@ import javax.ws.rs.NotFoundException;
 import java.util.List;
 
 @Stateless
+@Local(EmployeeDAO.class)
 public class EmployeeDAOImpl implements EmployeeDAO {
 
     @PersistenceContext(name = "human_resourcesPU")

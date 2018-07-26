@@ -13,6 +13,7 @@ import java.util.List;
 
 
 @Stateless
+@Local(DepartmentDAO.class)
 public class DepartmentDAOImpl implements  DepartmentDAO {
 
     @PersistenceContext(name = "human_resourcesPU")

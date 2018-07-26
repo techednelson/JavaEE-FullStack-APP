@@ -4,10 +4,12 @@ import dao.DepartmentDAO;
 import model.Department;
 
 import javax.ejb.EJB;
+import javax.ejb.Local;
 import javax.ejb.Stateless;
 import java.util.List;
 
 @Stateless
+@Local(DepartmentService.class)
 public class DepartmentServiceImpl implements DepartmentService {
 
     @EJB

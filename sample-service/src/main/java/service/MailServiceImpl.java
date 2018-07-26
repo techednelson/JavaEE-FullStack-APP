@@ -6,12 +6,14 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import javax.ejb.EJB;
+import javax.ejb.Local;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.jms.TextMessage;
 import java.util.Date;
 
 @Stateless
+@Local(MailService.class)
 public class MailServiceImpl implements MailService {
 
     @EJB

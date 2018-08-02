@@ -8,7 +8,7 @@
     <!--Department Table-->
     <changeSet id="createDepartment" author="nelson">
         <createTable tableName="department">
-            <column name="id" autoIncrement="true" type="int">
+            <column name="id"  type="int">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
             <column name="department_name" type="varchar(255)">
@@ -23,7 +23,7 @@
             <column name="street" type="varchar(255)">
                 <constraints nullable="false"/>
             </column>
-            <column name="street_number" type="varchar(255)">
+            <column name="street_number" type="int">
                 <constraints nullable="false"/>
             </column>
             <column name="zip_code" type="varchar(255)">
@@ -35,7 +35,7 @@
     <!--Employee Table-->
     <changeSet id="createEmployee" author="nelson">
         <createTable tableName="employee">
-            <column name="employee_id" autoIncrement="true" type="int">
+            <column name="employee_id" type="int">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
             <column name="first_name" type="varchar(255)">
@@ -44,7 +44,7 @@
             <column name="last_name" type="varchar(255)">
                 <constraints nullable="false"/>
             </column>
-            <column name="birth_date" type="varchar(255)">
+            <column name="birth_date" type="datetime">
                 <constraints nullable="false"/>
             </column>
             <column name="phone_number" type="varchar(255)">
@@ -53,10 +53,10 @@
             <column name="email" type="varchar(255)">
                 <constraints nullable="false"/>
             </column>
-            <column name="salary" type="varchar(255)">
+            <column name="salary" type="double">
                 <constraints nullable="false"/>
             </column>
-            <column name="join_date" type="varchar(255)">
+            <column name="join_date" type="datetime">
                 <constraints nullable="false"/>
             </column>
             <column name="city" type="varchar(255)">
@@ -68,7 +68,7 @@
             <column name="street" type="varchar(255)">
                 <constraints nullable="false"/>
             </column>
-            <column name="street_number" type="varchar(255)">
+            <column name="street_number" type="int">
                 <constraints nullable="false"/>
             </column>
             <column name="zip_code" type="varchar(255)">
@@ -83,7 +83,7 @@
     <!--Country Table-->
     <changeSet id="createCountry" author="nelson">
         <createTable tableName="country">
-            <column name="country_id" autoIncrement="true" type="int">
+            <column name="country_id" type="int">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
             <column name="country_name" type="varchar(255)">
@@ -98,13 +98,13 @@
     <!--Mail Table-->
     <changeSet id="createMail" author="nelson">
         <createTable tableName="mail">
-            <column name="mail_id"  autoIncrement="true" type="int">
+            <column name="mail_id" type="int">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
             <column name="mail_status" type="varchar(255)">
                 <constraints nullable="false"/>
             </column>
-            <column name="time_stamp" type="varchar(255)">
+            <column name="timestamp" type="datetime">
                 <constraints nullable="false"/>
             </column>
         </createTable>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.3.xsd">
+
+    <property name="now" value="now()" dbms="postgresql"/>
+
+    <!--Mail Table-->
+    <changeSet id="insertIntoMail"
+               author="nelson"
+               dbms="postgresql"
+               failOnError="true"
+               runAlways="${runalwaysflag}"
+               runOnChange="${runonchangeflag}"
+               runInTransaction="true">
+
+        <insert dbms="postgresql" tableName="mail">
+            <column name="mail_id" valueSequenceNext="MAIL_SEQ"/>
+            <column name="mail_status" value="employee created" />
+            <column name="timestamp" value="${now}" />
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>

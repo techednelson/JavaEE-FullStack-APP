@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.3.xsd">
+
+    <!--Country Table-->
+    <changeSet id="insertIntoCountry"
+               author="nelson"
+               dbms="postgresql"
+               failOnError="true"
+               runAlways="${runalwaysflag}"
+               runOnChange="${runonchangeflag}"
+               runInTransaction="true">
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
+            <column name="country_name" value="greece" />
+            <column name="city" value="athens" />
+        </insert>
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
+            <column name="country_name" value="mexico" />
+            <column name="city" value="guadalajara" />
+        </insert>
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
+            <column name="country_name" value="mexico" />
+            <column name="city" value="mexico city" />
+        </insert>
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
+            <column name="country_name" value="england" />
+            <column name="city" value="london" />
+        </insert>
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
+            <column name="country_name" value="greece" />
+            <column name="city" value="thessaloniki" />
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>

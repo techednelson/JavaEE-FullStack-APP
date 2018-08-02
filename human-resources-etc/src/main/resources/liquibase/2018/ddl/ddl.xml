@@ -8,5 +8,7 @@
 
     <include file="changeSet-create-tables.xml" relativeToChangelogFile="true"/>
     <include file="changeSet-create-fk.xml" relativeToChangelogFile="true"/>
+    <include file="changeSet-create-SEQ.xml" relativeToChangelogFile="true"/>
+
 
 </databaseChangeLog>

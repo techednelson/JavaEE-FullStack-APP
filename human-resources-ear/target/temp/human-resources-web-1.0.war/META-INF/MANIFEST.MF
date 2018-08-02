@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: nelson
+Class-Path: human-resources-service-1.0.jar lib/human-resources-persis
+ tence-1.0.jar lib/javax.persistence-api-2.2.jar lib/hibernate-validat
+ or-6.0.11.Final.jar lib/validation-api-2.0.1.Final.jar lib/jboss-logg
+ ing-3.3.2.Final.jar lib/classmate-1.3.4.jar lib/human-resources-servi
+ ce-1.0.jar lib/human-resources-dao-1.0.jar lib/human-resources-common
+ s-1.0.jar lib/log4j-core-2.7.jar lib/log4j-api-2.7.jar lib/human-reso
+ urces-persistence-1.0.jar lib/javax.persistence-api-2.2.jar lib/hiber
+ nate-validator-6.0.11.Final.jar lib/validation-api-2.0.1.Final.jar li
+ b/jboss-logging-3.3.2.Final.jar lib/classmate-1.3.4.jar lib/log4j-cor
+ e-2.7.jar lib/log4j-api-2.7.jar lib/javaee-api-8.0.jar lib/javax.mail
+ -1.6.0.jar lib/activation-1.1.jar lib/human-resources-commons-1.0.jar
+Created-By: Apache Maven 3.5.2
+Build-Jdk: 1.8.0_162
+

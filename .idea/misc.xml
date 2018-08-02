@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="ejb" url="file://$PROJECT_DIR$/sample-dao" />
-    <file type="ejb" url="file://$PROJECT_DIR$/sample-persistence" />
-    <file type="ejb" url="file://$PROJECT_DIR$/sample-service" />
-    <file type="javaeeApplication" url="file://$PROJECT_DIR$/sample-ear" />
-    <file type="web" url="file://$PROJECT_DIR$/sample-rest" />
+    <file type="ejb" url="file://$PROJECT_DIR$/human-resources-dao" />
+    <file type="ejb" url="file://$PROJECT_DIR$/human-resources-persistence" />
+    <file type="ejb" url="file://$PROJECT_DIR$/human-resources-service" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/human-resources-ear" />
+    <file type="web" url="file://$PROJECT_DIR$/human-resources-web" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

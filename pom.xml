@@ -5,18 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>final-project-javaee-app</groupId>
-    <artifactId>human-resources-parent</artifactId>
+    <artifactId>human-resources</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>sample-ear</module>
-        <module>sample-rest</module>
-        <module>sample-service</module>
-        <module>sample-dao</module>
-        <module>sample-persistence</module>
-        <module>liquibase</module>
-        <module>exceptions</module>
+        <module>human-resources-ear</module>
+        <module>human-resources-web</module>
+        <module>human-resources-service</module>
+        <module>human-resources-dao</module>
+        <module>human-resources-persistence</module>
+        <module>human-resources-etc</module>
+        <module>human-resources-commons</module>
     </modules>
 
     <properties>

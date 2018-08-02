@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <!--Department Table-->
+    <changeSet id="createDepartment" author="nelson">
+        <createTable tableName="department">
+            <column name="id" autoIncrement="true" type="int">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="department_name" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="city" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+            <column name="country" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="street" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="street_number" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="zip_code" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <!--Employee Table-->
+    <changeSet id="createEmployee" author="nelson">
+        <createTable tableName="employee">
+            <column name="employee_id" autoIncrement="true" type="int">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="first_name" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="last_name" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="birth_date" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="phone_number" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="email" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="salary" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="join_date" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="city" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+            <column name="country" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="street" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="street_number" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="zip_code" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="department_id" type="int">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <!--Country Table-->
+    <changeSet id="createCountry" author="nelson">
+        <createTable tableName="country">
+            <column name="country_id" autoIncrement="true" type="int">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="country_name" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="city" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <!--Mail Table-->
+    <changeSet id="createMail" author="nelson">
+        <createTable tableName="mail">
+            <column name="mail_id"  autoIncrement="true" type="int">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="mail_status" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="time_stamp" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>

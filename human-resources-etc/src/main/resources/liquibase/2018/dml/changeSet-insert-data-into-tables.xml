@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.3.xsd">
+
+    <!--Department Table-->
+    <changeSet id="insertIntoDepartment"
+               author="nelson"
+               dbms="postgresql"
+               failOnError="true">
+
+        <insert dbms="postgresql" tableName="department">
+            <column name="department_name" value="hr" />
+            <column name="city" value="athens" />
+            <column name="country" value="greece" />
+            <column name="street" value="thisseos" />
+            <column name="street_number" value="330" />
+            <column name="zip_code" value="123456" />
+        </insert>
+    </changeSet>
+
+    <!--Employee Table-->
+    <changeSet id="insertIntoEmployee"
+               author="nelson"
+               dbms="postgresql"
+               failOnError="true">
+
+        <insert dbms="postgresql" tableName="employee">
+            <column name="first_name" value="john" />
+            <column name="last_name" value="smith" />
+            <column name="birth_date" value="04/06/1980" />
+            <column name="phone_number" value="14 1234 5678" />
+            <column name="email" value="john@gmail.com" />
+            <column name="salary" value="1000" />
+            <column name="join_date" value="04/06/2000" />
+            <column name="city" value="athens" />
+            <column name="country" value="greece" />
+            <column name="street" value="thiseos" />
+            <column name="street_number" value="330" />
+            <column name="zip_code" value="123456" />
+            <column name="department_id" value="1" />
+        </insert>
+    </changeSet>
+
+    <!--Country Table-->
+    <changeSet id="insertIntoCountry"
+               author="nelson"
+               dbms="postgresql"
+               failOnError="true">
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_name" value="greece" />
+            <column name="city" value="athens" />
+        </insert>
+    </changeSet>
+
+    <!--Mail Table-->
+    <changeSet id="insertIntoMail"
+               author="nelson"
+               dbms="postgresql"
+               failOnError="true">
+
+        <insert dbms="postgresql" tableName="mail">
+            <column name="mail_status" value="employee created" />
+            <column name="time_stamp" value="04/06/2000" />
+        </insert>
+    </changeSet>
+
+
+</databaseChangeLog>

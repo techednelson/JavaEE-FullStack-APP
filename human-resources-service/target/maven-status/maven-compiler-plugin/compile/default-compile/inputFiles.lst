@@ -1,0 +1,8 @@
+/home/nelson/dev/JavaEE/Back-End/JavaEE-Backend-App/human-resources-service/src/main/java/jms/MailProducerJMS.java
+/home/nelson/dev/JavaEE/Back-End/JavaEE-Backend-App/human-resources-service/src/main/java/service/EmployeeService.java
+/home/nelson/dev/JavaEE/Back-End/JavaEE-Backend-App/human-resources-service/src/main/java/service/EmployeeServiceImpl.java
+/home/nelson/dev/JavaEE/Back-End/JavaEE-Backend-App/human-resources-service/src/main/java/jms/MailMessageDrivenBean.java
+/home/nelson/dev/JavaEE/Back-End/JavaEE-Backend-App/human-resources-service/src/main/java/service/DepartmentService.java
+/home/nelson/dev/JavaEE/Back-End/JavaEE-Backend-App/human-resources-service/src/main/java/service/MailService.java
+/home/nelson/dev/JavaEE/Back-End/JavaEE-Backend-App/human-resources-service/src/main/java/service/MailServiceImpl.java
+/home/nelson/dev/JavaEE/Back-End/JavaEE-Backend-App/human-resources-service/src/main/java/service/DepartmentServiceImpl.java

@@ -1,0 +1,6 @@
+dao/DepartmentDAOImpl.class
+dao/EmployeeDAOImpl.class
+dao/MailDAOImpl.class
+dao/DepartmentDAO.class
+dao/EmployeeDAO.class
+dao/MailDAO.class

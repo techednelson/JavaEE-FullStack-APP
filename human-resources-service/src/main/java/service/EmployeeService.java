@@ -13,7 +13,7 @@ public interface EmployeeService {
 
     Employee findEmployeeById(Integer id);
 
-    boolean updateEmployee(Employee employee);
+    boolean updateEmployee(Integer id);
 
     void deleteEmployee(Integer id);
 

@@ -2,9 +2,7 @@ package model;
 
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Pattern;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 
 @Embeddable
 public class Address {
@@ -25,11 +23,8 @@ public class Address {
     @Column(name = "street")
     private String street;
 
-    @Size(max = 3)
-    @Pattern(regexp = "^\\d+")
-    @NotBlank
     @Column(name = "street_number")
-    private String streetNumber;
+    private Integer streetNumber;
 
     @Size(min = 6, max = 6)
     @Pattern(regexp = "^\\d+")
@@ -39,7 +34,7 @@ public class Address {
 
     public Address() {}
 
-    public Address(String city, String country, String street, String streetNumber, String zipCode) {
+    public Address(String city, String country, String street, Integer streetNumber, String zipCode) {
         this.city = city;
         this.country = country;
         this.street = street;
@@ -59,9 +54,9 @@ public class Address {
 
     public void setStreet(String street) { this.street = street; }
 
-    public String getStreetNumber() { return streetNumber; }
+    public Integer getStreetNumber() { return streetNumber; }
 
-    public void setStreetNumber(String streetNumber) { this.streetNumber = streetNumber; }
+    public void setStreetNumber(Integer streetNumber) { this.streetNumber = streetNumber; }
 
     public String getzipcode() { return zipCode; }
 

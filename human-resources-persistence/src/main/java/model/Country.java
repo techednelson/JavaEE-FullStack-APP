@@ -5,6 +5,9 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 
 @Entity
+@NamedQueries({
+        @NamedQuery(name = "Country.findAll", query = "SELECT c FROM Country c")
+})
 @Table(name = "country")
 public class Country {
 

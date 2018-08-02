@@ -1,5 +1,5 @@
-model/Mail.class
 model/Address.class
+model/Mail.class
 model/Country.class
 model/Department.class
 model/Employee.class

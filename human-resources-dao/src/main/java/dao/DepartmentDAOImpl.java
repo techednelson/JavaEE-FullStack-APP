@@ -32,6 +32,7 @@ public class DepartmentDAOImpl implements  DepartmentDAO {
 
     @Override
     public Department findDepartmentById(Integer id) {
+
         Department department =  entityManager.find(Department.class, id);
 
         if(department == null) {
@@ -40,16 +41,17 @@ public class DepartmentDAOImpl implements  DepartmentDAO {
         }
 
         return department;
-
     }
 
     @Override
     public void updateDepartment(Department department) {
-       entityManager.merge(department);
+
+        entityManager.merge(department);
     }
 
     @Override
     public void deleteDepartment(Integer id) {
+
         Department department = findDepartmentById(id);
 
         if(department == null) {
@@ -58,7 +60,6 @@ public class DepartmentDAOImpl implements  DepartmentDAO {
         }
 
         entityManager.remove(department);
-
     }
 
 }

@@ -3,9 +3,11 @@ package model;
 import javax.persistence.*;
 import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Past;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
+import java.util.Date;
 
 @Entity
 @NamedQueries({
@@ -33,10 +35,10 @@ public class Employee  implements Serializable {
     @Column(name = "last_name")
     private String lastName;
 
-    @Pattern(regexp = "^(3[01]|[12][0-9]|0[1-9])/(1[0-2]|0[1-9])/[0-9]{4}$")
+    @Past
     @NotBlank
     @Column(name = "birth_date")
-    private String birthDate;
+    private Date birthDate;
 
     @Pattern(regexp = "^\\d+")
     @Size(min = 10, max = 10)
@@ -49,16 +51,15 @@ public class Employee  implements Serializable {
     @Column(name = "email")
     private String email;
 
-    @Pattern(regexp = "^\\d+")
     @Size(max = 4)
     @NotBlank
     @Column(name = "salary")
-    private String salary;
+    private Double salary;
 
-    @Pattern(regexp = "^(3[01]|[12][0-9]|0[1-9])/(1[0-2]|0[1-9])/[0-9]{4}$")
+    @Past
     @NotBlank
     @Column(name = "join_date")
-    private String joinDate;
+    private Date joinDate;
 
     @Embedded
     @Valid
@@ -71,7 +72,7 @@ public class Employee  implements Serializable {
 
     public Employee() { }
 
-    public Employee(String firstName, String lastName, String birthDate, Address address, String phoneNumber, String email, String salary, Department department, String joinDate) {
+    public Employee(String firstName, String lastName, Date birthDate, Address address, String phoneNumber, String email, Double salary, Department department, Date joinDate) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.birthDate = birthDate;
@@ -95,9 +96,9 @@ public class Employee  implements Serializable {
 
     public void setLastName(String lastName) { this.lastName = lastName; }
 
-    public String getBirthDate() { return birthDate; }
+    public Date getBirthDate() { return birthDate; }
 
-    public void setBirthDate(String birthDate) { this.birthDate = birthDate; }
+    public void setBirthDate(Date birthDate) { this.birthDate = birthDate; }
 
     public Address getAddress() { return address; }
 
@@ -111,16 +112,16 @@ public class Employee  implements Serializable {
 
     public void setEmail(String email) { this.email = email; }
 
-    public String getSalary() { return salary; }
+    public Double getSalary() { return salary; }
 
-    public void setSalary(String salary) { this.salary = salary; }
+    public void setSalary(Double salary) { this.salary = salary; }
 
     public Department getDepartment() { return department; }
 
     public void setDepartment(Department department) { this.department = department; }
 
-    public String getJoinDate() { return joinDate; }
+    public Date getJoinDate() { return joinDate; }
 
-    public void setJoinDate(String joinDate) { this.joinDate = joinDate; }
+    public void setJoinDate(Date joinDate) { this.joinDate = joinDate; }
 
 }

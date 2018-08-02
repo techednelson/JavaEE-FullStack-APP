@@ -13,7 +13,7 @@ public interface DepartmentService {
 
     Department findDepartmentById(Integer id);
 
-    void updateDepartment(Department department);
+    void updateDepartment(Integer id);
 
     void deleteDepartment(Integer id);
 

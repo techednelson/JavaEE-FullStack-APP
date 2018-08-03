@@ -1,10 +1,14 @@
 package rest.resources;
 
+import exceptions.NotCreateNamedQueryException;
+import exceptions.NotMergedEntityException;
+import exceptions.NotPersistedEntityException;
 import jms.MailProducerJMS;
 import model.Employee;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import rest.boundary.EmployeeBoundary;
+import rest.exceptions.InvalidLocationException;
 import rest.exceptions.ValidationErrorsException;
 
 import javax.ejb.EJB;
@@ -28,7 +32,7 @@ public class EmployeeResource {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public Response registerEmployee(Employee employee) throws ValidationErrorsException {
+    public Response registerEmployee(Employee employee) throws ValidationErrorsException, InvalidLocationException, NotPersistedEntityException {
 
         logger.info("Starting web service call registerEmployee");
         if(employee == null) {
@@ -48,7 +52,7 @@ public class EmployeeResource {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public Response getAllEmployees() {
+    public Response getAllEmployees() throws NotCreateNamedQueryException {
 
         logger.info("Starting web service call getAllEmployees");
         List<Employee> employeeList = boundary.getAllEmployees();
@@ -74,7 +78,7 @@ public class EmployeeResource {
 
     @PUT
     @Produces(MediaType.APPLICATION_JSON)
-    public Response updateEmployee(Employee employee) {
+    public Response updateEmployee(Employee employee) throws NotMergedEntityException {
 
         logger.info("Starting web service call updaterEmployee");
         if(employee == null) {

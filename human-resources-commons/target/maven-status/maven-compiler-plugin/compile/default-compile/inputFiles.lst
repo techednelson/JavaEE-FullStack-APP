@@ -1,0 +1,3 @@
+/home/nelson/dev/JavaEE/Back-End/JavaEE-Backend-APP/human-resources-commons/src/main/java/exceptions/NotCreateNamedQueryException.java
+/home/nelson/dev/JavaEE/Back-End/JavaEE-Backend-APP/human-resources-commons/src/main/java/exceptions/NotPersistedEntityException.java
+/home/nelson/dev/JavaEE/Back-End/JavaEE-Backend-APP/human-resources-commons/src/main/java/exceptions/NotMergedEntityException.java

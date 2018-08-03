@@ -1,9 +1,13 @@
 package rest.resources;
 
+import exceptions.NotCreateNamedQueryException;
+import exceptions.NotMergedEntityException;
+import exceptions.NotPersistedEntityException;
 import model.Department;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import rest.boundary.DepartmentBoundary;
+import rest.exceptions.InvalidLocationException;
 import rest.exceptions.ValidationErrorsException;
 
 import javax.inject.Inject;
@@ -23,7 +27,7 @@ public class DepartmentResource {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public Response createDepartment(Department department) throws ValidationErrorsException {
+    public Response createDepartment(Department department) throws ValidationErrorsException, InvalidLocationException, NotPersistedEntityException {
 
         logger.info("Starting web service call createDepartment");
         if(department == null) {
@@ -40,7 +44,7 @@ public class DepartmentResource {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public Response getAllDepartments() {
+    public Response getAllDepartments() throws NotCreateNamedQueryException {
 
         logger.info("Starting web service call getAllDepartments");
         List<Department> departmentList = boundary.getAllDepartments();
@@ -65,7 +69,7 @@ public class DepartmentResource {
 
     @PUT
     @Produces(MediaType.APPLICATION_JSON)
-    public Response updateDepartment(Department department) {
+    public Response updateDepartment(Department department) throws NotMergedEntityException {
 
         logger.info("Starting web service call updateDepartment");
 

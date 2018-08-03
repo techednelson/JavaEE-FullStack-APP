@@ -1,7 +1,5 @@
 package rest.boundary;
 
-import model.Department;
-import model.Employee;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -18,13 +16,13 @@ public class ResourcesValidator {
 
     @Inject
     private Validator validator;
-
     private Logger logger = LogManager.getLogger(ResourcesValidator.class.getName());
+    private List<String> errors = new ArrayList<>();
+    private StringBuilder err = new StringBuilder();
+    private List<String> countries = new ArrayList<>();
+    private List<String> cities = new ArrayList<>();
 
     public String validateEntity(Object entity) {
-
-        List<String> errors = new ArrayList<>();
-        StringBuilder err = new StringBuilder();
 
         if(entity != null) {
             Set<ConstraintViolation<Object>> constraintViolations = validator.validate(entity);
@@ -32,20 +30,49 @@ public class ResourcesValidator {
                 return null;
             } else {
                 for (ConstraintViolation<Object> cv : constraintViolations) {
+                    err.append("\n");
                     err.append(cv.getPropertyPath());
                     err.append(" ");
                     err.append(cv.getMessage());
+                    err.append("\n");
                     logger.error(cv.getMessage());
                     errors.add(err.toString());
                 }
                 err = new StringBuilder();
                 for (String s : errors) {
                     err.append(s);
-                    err.append("\t");
+                    err.append(" \n");
                 }
             }
         }
         return err.toString();
+    }
+
+    public boolean validateLocation(String country, String city) {
+
+        countries.add("greece");
+        countries.add("mexico");
+        countries.add("england");
+        countries.add("spain");
+        countries.add("USA");
+
+        cities.add("athens");
+        cities.add("thessaloniki");
+        cities.add("london");
+        cities.add("manchester city");
+        cities.add("mexico city");
+        cities.add("guadalajara");
+        cities.add("madrid");
+        cities.add("barcelona");
+        cities.add("new york");
+        cities.add("los angeles");
+
+
+        if(country != null & city != null) {
+            return countries.contains(country) && cities.contains(city);
+        }
+
+        return false;
     }
 
 

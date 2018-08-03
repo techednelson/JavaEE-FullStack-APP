@@ -1,5 +1,8 @@
 package dao;
 
+import exceptions.NotCreateNamedQueryException;
+import exceptions.NotMergedEntityException;
+import exceptions.NotPersistedEntityException;
 import model.Department;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -22,12 +25,22 @@ public class DepartmentDAOImpl implements  DepartmentDAO {
     private Logger logger = LogManager.getLogger(DepartmentDAOImpl.class.getName());
 
     @Override
-    public void createDepartment(Department department) { entityManager.persist(department); }
+    public void createDepartment(Department department) throws NotPersistedEntityException {
+        try {
+            entityManager.persist(department);
+        } catch (Exception e) {
+            throw new NotPersistedEntityException("Entity Manager failed to persist the department");
+        }
+    }
 
     @Override
-    public List<Department> listDepartments() {
+    public List<Department> listDepartments() throws NotCreateNamedQueryException {
 
-        return entityManager.createNamedQuery("Department.findAll").getResultList();
+        try {
+            return entityManager.createNamedQuery("Department.findAll").getResultList();
+        } catch (Exception e) {
+            throw new NotCreateNamedQueryException("Entity Manager failed to retrieve the department list");
+        }
     }
 
     @Override
@@ -44,9 +57,13 @@ public class DepartmentDAOImpl implements  DepartmentDAO {
     }
 
     @Override
-    public void updateDepartment(Department department) {
+    public void updateDepartment(Department department) throws NotMergedEntityException {
 
-        entityManager.merge(department);
+        try {
+            entityManager.merge(department);
+        } catch (Exception e) {
+           throw new NotMergedEntityException("Entity Manager failed to update department");
+        }
     }
 
     @Override

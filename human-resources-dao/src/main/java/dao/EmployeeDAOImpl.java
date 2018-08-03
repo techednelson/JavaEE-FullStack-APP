@@ -1,5 +1,8 @@
 package dao;
 
+import exceptions.NotCreateNamedQueryException;
+import exceptions.NotMergedEntityException;
+import exceptions.NotPersistedEntityException;
 import model.Employee;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -21,14 +24,23 @@ public class EmployeeDAOImpl implements EmployeeDAO {
     private Logger logger = LogManager.getLogger(DepartmentDAOImpl.class.getName());
 
     @Override
-    public void createEmployee(Employee employee) {
-        entityManager.persist(employee);
+    public void createEmployee(Employee employee) throws NotPersistedEntityException {
+
+        try {
+            entityManager.persist(employee);
+        } catch (Exception e) {
+            throw new NotPersistedEntityException("Entity Manager failed to persist the employee");
+        }
     }
 
     @Override
-    public List<Employee> listEmployees() {
+    public List<Employee> listEmployees() throws NotCreateNamedQueryException {
 
-        return entityManager.createNamedQuery("Employee.findAll").getResultList();
+        try {
+            return entityManager.createNamedQuery("Employee.findAll").getResultList();
+        } catch (Exception e) {
+            throw new NotCreateNamedQueryException("Entity Manager failed to retrieve the employee list");
+        }
     }
 
     @Override
@@ -44,13 +56,12 @@ public class EmployeeDAOImpl implements EmployeeDAO {
     }
 
     @Override
-    public boolean updateEmployee(Employee employee) {
+    public boolean updateEmployee(Employee employee) throws NotMergedEntityException {
         try {
             entityManager.merge(employee);
             return true;
         } catch (Exception e) {
-            e.getStackTrace();
-            return false;
+            throw new NotMergedEntityException("Entity Manager failed to merge the updated employee");
         }
 
     }

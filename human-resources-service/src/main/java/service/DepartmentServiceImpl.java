@@ -1,6 +1,9 @@
 package service;
 
 import dao.DepartmentDAO;
+import exceptions.NotCreateNamedQueryException;
+import exceptions.NotMergedEntityException;
+import exceptions.NotPersistedEntityException;
 import model.Department;
 
 import javax.ejb.EJB;
@@ -17,13 +20,13 @@ public class DepartmentServiceImpl implements DepartmentService {
     private DepartmentDAO dao;
 
     @Override
-    public void createDepartment(Department department) {
+    public void createDepartment(Department department) throws NotPersistedEntityException {
 
         dao.createDepartment(department);
     }
 
     @Override
-    public List<Department> listDepartments() {
+    public List<Department> listDepartments() throws NotCreateNamedQueryException {
 
         return dao.listDepartments();
     }
@@ -36,7 +39,7 @@ public class DepartmentServiceImpl implements DepartmentService {
 
 
     @Override
-    public void updateDepartment(Integer id) {
+    public void updateDepartment(Integer id) throws NotMergedEntityException {
 
         Department department = findDepartmentById(id);
         if(department != null) {

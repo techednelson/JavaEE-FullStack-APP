@@ -1,5 +1,6 @@
 package dao;
 
+import exceptions.NotCreateNamedQueryException;
 import model.Country;
 
 import javax.ejb.Local;
@@ -16,8 +17,12 @@ public class CountryDAOImpl implements CountryDAO {
     private EntityManager entityManager;
 
     @Override
-    public List<Country> listCountries() {
+    public List<Country> listCountries() throws NotCreateNamedQueryException {
 
-        return entityManager.createNamedQuery("Country.findAll").getResultList();
+        try {
+            return entityManager.createNamedQuery("Country.findAll").getResultList();
+        } catch (Exception e) {
+            throw new NotCreateNamedQueryException("Entity Manager failed to retrieve the country list");
+        }
     }
 }

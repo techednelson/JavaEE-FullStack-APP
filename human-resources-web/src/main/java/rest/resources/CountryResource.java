@@ -1,5 +1,6 @@
 package rest.resources;
 
+import exceptions.NotCreateNamedQueryException;
 import model.Country;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -21,7 +22,7 @@ public class CountryResource {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public Response getAllCountries() {
+    public Response getAllCountries() throws NotCreateNamedQueryException {
 
         logger.info("Starting web service call getAllCountries");
         List<Country> countryList = boundary.getAllCountries();

@@ -2,10 +2,7 @@ package model;
 
 import javax.persistence.*;
 import javax.validation.Valid;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Past;
-import javax.validation.constraints.Pattern;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -19,7 +16,8 @@ public class Employee  implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @SequenceGenerator(name = "EMPLOYEE_SEQ", sequenceName = "EMPLOYEE_SEQ", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "EMPLOYEE_SEQ")
     @Column(name = "employee_id")
     private Integer id;
 
@@ -37,7 +35,8 @@ public class Employee  implements Serializable {
 
     @Past
     @NotBlank
-    @Column(name = "birth_date")
+    @Temporal(TemporalType.DATE)
+    @Column(name = "birth_date", updatable = false)
     private Date birthDate;
 
     @Pattern(regexp = "^\\d+")
@@ -51,14 +50,15 @@ public class Employee  implements Serializable {
     @Column(name = "email")
     private String email;
 
-    @Size(max = 4)
+    @Digits(integer = 4, fraction = 0)
     @NotBlank
     @Column(name = "salary")
     private Double salary;
 
     @Past
     @NotBlank
-    @Column(name = "join_date")
+    @Temporal(TemporalType.DATE)
+    @Column(name = "join_date", updatable = false)
     private Date joinDate;
 
     @Embedded

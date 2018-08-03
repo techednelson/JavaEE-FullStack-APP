@@ -1,6 +1,9 @@
 package service;
 
 import dao.EmployeeDAO;
+import exceptions.NotCreateNamedQueryException;
+import exceptions.NotMergedEntityException;
+import exceptions.NotPersistedEntityException;
 import model.Employee;
 
 import javax.ejb.EJB;
@@ -18,13 +21,13 @@ public class EmployeeServiceImpl implements EmployeeService{
     private EmployeeDAO dao;
 
     @Override
-    public  void createEmployee(Employee employee) {
+    public  void createEmployee(Employee employee) throws NotPersistedEntityException {
 
         dao.createEmployee(employee);
     }
 
     @Override
-    public List<Employee> listEmployees() {
+    public List<Employee> listEmployees() throws NotCreateNamedQueryException {
 
         return dao.listEmployees();
     }
@@ -37,7 +40,7 @@ public class EmployeeServiceImpl implements EmployeeService{
 
 
     @Override
-    public boolean updateEmployee(Integer id) {
+    public boolean updateEmployee(Integer id) throws NotMergedEntityException {
 
         Employee employee = findEmployeeById(id);
 

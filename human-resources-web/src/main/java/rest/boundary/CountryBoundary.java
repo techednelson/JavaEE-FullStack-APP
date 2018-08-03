@@ -1,5 +1,6 @@
 package rest.boundary;
 
+import exceptions.NotCreateNamedQueryException;
 import model.Country;
 import service.CountryService;
 
@@ -11,7 +12,7 @@ public class CountryBoundary {
     @EJB
     private CountryService service;
 
-    public List<Country> getAllCountries() {
+    public List<Country> getAllCountries() throws NotCreateNamedQueryException {
 
         return service.listCountries();
     }

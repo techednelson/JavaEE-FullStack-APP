@@ -27,7 +27,7 @@
                     <driver>org.postgresql.Driver</driver>
                     <url>jdbc:postgresql://localhost:5432/human_resourcesPU</url>
                     <username>postgres</username>
-                    <password></password>
+                    <password>!@#321Nel</password>
                 </configuration>
                 <executions>
                     <execution>

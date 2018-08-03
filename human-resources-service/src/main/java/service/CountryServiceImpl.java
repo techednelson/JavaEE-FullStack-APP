@@ -1,6 +1,7 @@
 package service;
 
 import dao.CountryDAO;
+import exceptions.NotCreateNamedQueryException;
 import model.Country;
 
 import javax.ejb.EJB;
@@ -16,7 +17,7 @@ public class CountryServiceImpl implements CountryService {
     private CountryDAO dao;
 
     @Override
-    public List<Country> listCountries() {
+    public List<Country> listCountries() throws NotCreateNamedQueryException {
 
         return dao.listCountries();
     }

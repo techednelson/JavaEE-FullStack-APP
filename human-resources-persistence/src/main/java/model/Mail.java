@@ -10,7 +10,8 @@ public class Mail implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @SequenceGenerator(name = "MAIL_SEQ", sequenceName = "MAIL_SEQ", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "MAIL_SEQ")
     @Column(name = "mail_id")
     private Integer id;
 

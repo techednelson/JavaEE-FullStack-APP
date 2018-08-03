@@ -1,6 +1,7 @@
 package dao;
 
 
+import exceptions.NotPersistedEntityException;
 import model.Mail;
 
 import javax.ejb.Local;
@@ -16,5 +17,11 @@ public class MailDAOImpl implements MailDAO {
     private EntityManager entityManager;
 
     @Override
-    public void create(Mail mail) { entityManager.persist(mail); }
+    public void create(Mail mail) throws NotPersistedEntityException {
+        try {
+            entityManager.persist(mail);
+        } catch (Exception e) {
+            throw new NotPersistedEntityException("Entity Manager failed persist mail message");
+        }
+    }
 }

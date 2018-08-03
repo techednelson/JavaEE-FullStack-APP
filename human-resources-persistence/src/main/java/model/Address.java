@@ -23,6 +23,8 @@ public class Address {
     @Column(name = "street")
     private String street;
 
+    @NotBlank
+    @Digits(integer = 5, fraction = 0)
     @Column(name = "street_number")
     private Integer streetNumber;
 

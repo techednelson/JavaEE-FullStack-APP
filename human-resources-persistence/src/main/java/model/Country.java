@@ -3,18 +3,20 @@ package model;
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
+import java.io.Serializable;
 
 @Entity
 @NamedQueries({
         @NamedQuery(name = "Country.findAll", query = "SELECT c FROM Country c")
 })
 @Table(name = "country")
-public class Country {
+public class Country implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @SequenceGenerator(name = "COUNTRY_SEQ", sequenceName = "COUNTRY_SEQ", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "COUNTRY_SEQ")
     @Column(name="country_id")
     private Integer id;
 

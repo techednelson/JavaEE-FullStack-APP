@@ -8,7 +8,6 @@ import org.apache.logging.log4j.Logger;
 import javax.ejb.EJB;
 import javax.ejb.Local;
 import javax.ejb.Stateless;
-import javax.inject.Inject;
 import javax.jms.TextMessage;
 import java.util.Date;
 
@@ -29,8 +28,8 @@ public class MailServiceImpl implements MailService {
         mail = new Mail();
 
         try {
-            mail.setMail_status(message.getText());
-            mail.setTime_stamp(new Date().toString());
+            mail.setMailStatus(message.getText());
+            mail.setTimeStamp(new Date().toString());
             dao.create(mail);
             logger.info("mail persistent");
         } catch (Exception e) {

@@ -40,14 +40,12 @@ public class EmployeeServiceImpl implements EmployeeService{
 
 
     @Override
-    public boolean updateEmployee(Integer id) throws NotMergedEntityException {
-
-        Employee employee = findEmployeeById(id);
+    public boolean updateEmployee(Employee employee) throws NotMergedEntityException {
 
         if(employee != null) {
             return dao.updateEmployee(employee);
         } else {
-            throw new NotFoundException("Could not find employee " + id);
+            throw new NotFoundException("Could not find employee ");
         }
     }
 

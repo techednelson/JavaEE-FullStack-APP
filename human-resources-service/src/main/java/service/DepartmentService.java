@@ -16,8 +16,7 @@ public interface DepartmentService {
 
     Department findDepartmentById(Integer id);
 
-    void updateDepartment(Integer id) throws NotMergedEntityException;
-
+    void updateDepartment(Department department) throws  NotMergedEntityException;
     void deleteDepartment(Integer id);
 
 }

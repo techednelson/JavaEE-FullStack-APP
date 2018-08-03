@@ -104,7 +104,7 @@
             <column name="mail_status" type="varchar(255)">
                 <constraints nullable="false"/>
             </column>
-            <column name="timestamp" type="datetime">
+            <column name="time_stamp" type="datetime">
                 <constraints nullable="false"/>
             </column>
         </createTable>

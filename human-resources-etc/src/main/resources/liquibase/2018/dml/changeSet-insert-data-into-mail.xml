@@ -16,9 +16,16 @@
 
         <insert dbms="postgresql" tableName="mail">
             <column name="mail_id" valueSequenceNext="MAIL_SEQ"/>
-            <column name="mail_status" value="employee created" />
-            <column name="timestamp" value="${now}" />
+            <column name="mail_status" value="create" />
+            <column name="time_stamp" value="${now}" />
         </insert>
+
+        <insert dbms="postgresql" tableName="mail">
+            <column name="mail_id" valueSequenceNext="MAIL_SEQ"/>
+            <column name="mail_status" value="update" />
+            <column name="time_stamp" value="${now}" />
+        </insert>
+
     </changeSet>
 
 </databaseChangeLog>

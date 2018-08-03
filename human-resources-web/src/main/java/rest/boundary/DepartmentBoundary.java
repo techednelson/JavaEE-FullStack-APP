@@ -58,13 +58,13 @@ public class DepartmentBoundary {
         return service.findDepartmentById(id);
     }
 
-    public void updateDepartment(Integer id) throws NotMergedEntityException {
+    public void updateDepartment(Department department) throws NotMergedEntityException {
 
-         service.updateDepartment(id);
+         service.updateDepartment(department);
     }
 
     public void deleteDepartment(Integer id) {
 
-        service.findDepartmentById(id);
+        service.deleteDepartment(id);
     }
 }

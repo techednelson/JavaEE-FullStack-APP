@@ -78,7 +78,7 @@ public class DepartmentResource {
             throw new BadRequestException("Data received was incorrect, please try again");
         }
 
-        boundary.updateDepartment(department.getId());
+        boundary.updateDepartment(department);
 
         return Response.ok().build();
     }

@@ -44,7 +44,7 @@ public class EmployeeResource {
             Employee newEmployee = boundary.registerEmployee(employee);
 
             logger.info("Sending confirmation message");
-            mailProducerJMS.sendMessage("Employee created");
+            mailProducerJMS.sendMessage("create");
 
             return Response.ok(newEmployee).build();
         }
@@ -86,8 +86,8 @@ public class EmployeeResource {
             throw new BadRequestException("Data received was incorrect, please try again");
 
         } else {
-            if(boundary.updateEmployee(employee.getId())) {
-                mailProducerJMS.sendMessage("Employee updated");
+            if(boundary.updateEmployee(employee)) {
+                mailProducerJMS.sendMessage("update");
             }
             return Response.ok(employee).build();
         }

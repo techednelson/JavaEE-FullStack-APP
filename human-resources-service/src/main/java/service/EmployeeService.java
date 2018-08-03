@@ -16,7 +16,7 @@ public interface EmployeeService {
 
     Employee findEmployeeById(Integer id);
 
-    boolean updateEmployee(Integer id) throws NotMergedEntityException;
+    boolean updateEmployee(Employee employee) throws NotMergedEntityException;
 
     void deleteEmployee(Integer id);
 

@@ -53,9 +53,9 @@ public class EmployeeBoundary {
         return service.findEmployeeById(id);
     }
 
-    public boolean updateEmployee(Integer id) throws NotMergedEntityException {
+    public boolean updateEmployee(Employee employee) throws NotMergedEntityException {
 
-        return service.updateEmployee(id);
+        return service.updateEmployee(employee);
     }
 
     public void deleteEmployee(Integer id) {

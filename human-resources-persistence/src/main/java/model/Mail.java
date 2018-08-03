@@ -16,10 +16,10 @@ public class Mail implements Serializable {
     private Integer id;
 
     @Column(name = "mail_status")
-    private String mail_status;
+    private String mailStatus;
 
     @Column(name = "time_stamp")
-    private String time_stamp;
+    private String timestamp;
 
     public Mail() { }
 
@@ -31,16 +31,16 @@ public class Mail implements Serializable {
         this.id = id;
     }
 
-    public String getMail_status() { return mail_status; }
+    public String getMailStatus() { return mailStatus; }
 
-    public void setMail_status(String mail_status) { this.mail_status = mail_status; }
+    public void setMailStatus(String mail_status) { this.mailStatus = mail_status; }
 
-    public String getTime_stamp() {
-        return time_stamp;
+    public String getTimeStamp() {
+        return timestamp;
     }
 
-    public void setTime_stamp(String time_stamp) {
-        this.time_stamp = time_stamp;
+    public void setTimeStamp(String time_stamp) {
+        this.timestamp = time_stamp;
     }
 
 }

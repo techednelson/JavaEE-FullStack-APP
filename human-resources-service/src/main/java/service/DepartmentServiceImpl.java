@@ -39,13 +39,12 @@ public class DepartmentServiceImpl implements DepartmentService {
 
 
     @Override
-    public void updateDepartment(Integer id) throws NotMergedEntityException {
+    public void updateDepartment(Department department) throws NotMergedEntityException {
 
-        Department department = findDepartmentById(id);
         if(department != null) {
             dao.updateDepartment(department);
         } else {
-            throw new NotFoundException("Could not find department " + id);
+            throw new NotFoundException("Could not find department ");
         }
     }
 

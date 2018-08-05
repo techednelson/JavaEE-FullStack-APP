@@ -16,30 +16,16 @@
       <change beforePath="$PROJECT_DIR$/human-resources-ear/target/rest/lib/human-resources-persistence-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/rest/lib/human-resources-persistence-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/META-INF/maven/final-project-javaee-app/human-resources-dao/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/META-INF/maven/final-project-javaee-app/human-resources-dao/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/META-INF/maven/final-project-javaee-app/human-resources-service/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/META-INF/maven/final-project-javaee-app/human-resources-service/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/service/MailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/service/MailServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/META-INF/maven/final-project-javaee-app/human-resources-web/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/META-INF/maven/final-project-javaee-app/human-resources-web/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/WEB-INF/classes/rest/resources/EmployeeResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/WEB-INF/classes/rest/resources/EmployeeResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/changeSet-create-tables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/changeSet-create-tables.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-mail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-mail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Mail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-persistence/target/classes/model/Mail.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-persistence/target/classes/model/Mail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/js/controllers/employeeCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/js/controllers/employeeCtrl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-persistence/target/human-resources-persistence.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-persistence/target/human-resources-persistence.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-persistence/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-persistence/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/src/main/java/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/src/main/java/service/DepartmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/src/main/java/service/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/src/main/java/service/DepartmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/src/main/java/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/src/main/java/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/src/main/java/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/src/main/java/service/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/src/main/java/service/MailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/src/main/java/service/MailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/target/classes/service/MailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/classes/service/MailServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-service/target/human-resources-service.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/human-resources-service.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/DepartmentBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/DepartmentBoundary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/EmployeeBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/EmployeeBoundary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/DepartmentResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/DepartmentResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/EmployeeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/EmployeeResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/target/classes/rest/resources/EmployeeResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/classes/rest/resources/EmployeeResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsResponseFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsResponseFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-web/target/classes/rest/filter/RESTCorsResponseFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/classes/rest/filter/RESTCorsResponseFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/classes/rest/resources/EmployeeResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/classes/rest/resources/EmployeeResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/classes/rest/filter/RESTCorsResponseFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/classes/rest/filter/RESTCorsResponseFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/lib/human-resources-commons-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/lib/human-resources-commons-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/lib/human-resources-dao-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/lib/human-resources-dao-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/lib/human-resources-persistence-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/lib/human-resources-persistence-1.0.jar" afterDir="false" />
@@ -120,48 +106,63 @@
     <session id="284543748">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="95" />
-          <entry key="xml" value="11" />
+          <entry key="css" value="1" />
+          <entry key="html" value="5" />
+          <entry key="java" value="100" />
+          <entry key="js" value="10" />
+          <entry key="png" value="1" />
+          <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="95" />
-          <entry key="XML" value="11" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="5" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="100" />
+          <entry key="JavaScript" value="10" />
+          <entry key="XML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
+          <entry key="html" value="16" />
           <entry key="java" value="1817" />
+          <entry key="js" value="65" />
           <entry key="xml" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="16" />
           <entry key="JAVA" value="1817" />
+          <entry key="JavaScript" value="65" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="XML" value="43" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="human-resources-parent" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/human-resources-dao/src/main/java/dao/EmployeeDAOImpl.java">
+        <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/departmentCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
-            </state>
+            <state relative-caret-position="-330" />
           </provider>
         </entry>
       </file>
@@ -181,11 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/scripts/deploy_restEAR.sh" />
-        <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-tables.xml" />
-        <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-employee" />
-        <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/dml.xml" />
-        <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/ddl.xml" />
         <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-department.xml" />
         <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-country.xml" />
         <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-employee.xml" />
@@ -232,6 +228,11 @@
         <option value="$PROJECT_DIR$/human-resources-service/src/main/java/service/EmployeeService.java" />
         <option value="$PROJECT_DIR$/human-resources-service/src/main/java/service/EmployeeServiceImpl.java" />
         <option value="$PROJECT_DIR$/human-resources-service/src/main/java/service/DepartmentService.java" />
+        <option value="$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/employee.js" />
+        <option value="$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsResponseFilter.java" />
+        <option value="$PROJECT_DIR$/human-resources-web/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/human-resources-web/src/main/webapp/views/home.html" />
+        <option value="$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/employeeCtrl.js" />
       </list>
     </option>
   </component>
@@ -248,11 +249,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="405" />
-    <option name="y" value="119" />
-    <option name="width" value="1451" />
-    <option name="height" value="956" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="y" value="25" />
+    <option name="width" value="1920" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -263,7 +263,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -275,59 +274,106 @@
             <path>
               <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="human-resources-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="human-resources-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="human-resources-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="human-resources-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="human-resources-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533306907058" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533436979746" />
     <property name="last.edited.regexp" value="1000" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../GitRepo/omniacore" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/human-resources-web/src/main/webapp/images" />
+      <recent name="$PROJECT_DIR$/human-resources-web/src/main/webapp/js" />
+      <recent name="$PROJECT_DIR$/human-resources-web/src/main/webapp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/human-resources-web/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/human-resources-web/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/human-resources-web/src/main/webapp/js" />
       <recent name="$PROJECT_DIR$/human-resources-etc/src/main/resources" />
       <recent name="$PROJECT_DIR$/human-resources-commons/src/resources/scripts" />
     </key>
@@ -379,21 +425,33 @@
       <workItem from="1533230148126" duration="18245000" />
       <workItem from="1533280092004" duration="9945000" />
       <workItem from="1533291578649" duration="2427000" />
+      <workItem from="1533406091940" duration="26000" />
+      <workItem from="1533412867766" duration="12142000" />
+      <workItem from="1533451011476" duration="1744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67810000" />
+    <option name="totallyTimeSpent" value="82054000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23212379" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.19477054" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Favorites" order="5" sideWeight="0.5007657" side_tool="true" weight="0.23745997" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Learn" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
@@ -405,7 +463,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29405406" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -475,87 +533,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-department.xml" />
-    <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-country.xml" />
-    <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-employee.xml" />
-    <entry file="file://$PROJECT_DIR$/human-resources-service/src/main/java/service/CountryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/changeSet-create-SEQ.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-etc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-persistence/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/converter/LocalDateAttributeConverter.java" />
-    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/converter/DateConverter.java" />
-    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/config/RESTConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/exceptions/InvalidLocationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/exceptions/ValidationErrorsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/exceptions/mapper/ApplicationExceptionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -567,9 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="20" column="74" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,9 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,9 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -665,9 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,9 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
           <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,9 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -761,9 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,30 +727,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/EmployeeResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/DepartmentResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="80" column="44" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-service/src/main/java/service/DepartmentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,11 +755,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../GitRepo/omniacore/eBanking-webclient/webApplication/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-dao/src/main/java/dao/EmployeeDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
-          <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+          <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/images/international_presence.png" />
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/services/services.js" />
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/employee.js" />
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/employeeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsResponseFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="89" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/CacheControlFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/services/employeeService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/EmployeeResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/DepartmentResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="80" column="44" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/services/departmentService.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/departmentCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330" />
       </provider>
     </entry>
   </component>

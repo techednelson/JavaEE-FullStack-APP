@@ -1,0 +1,40 @@
+<h1 class="text-center list-title">HR Employees Database</h1>
+
+<div class="form-row mb-2">
+  <div class="col">
+    <label class="col-form-label text-right" for="searchQuery">
+      search<span ng-show="">{{ 'for: ' + query }}</span>
+    </label>
+  </div>
+
+  <div class="col-12">
+    <input type="text" class="form-control form-control-lg" id="searchQuery" placeholder="Search for employees"
+    autofocus ng-model="query">
+  </div>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+          <th>Employee id</th><th>First Name</th><th>Last name</th><th>More</th><th></th><th></th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="item in employees">
+
+        <td>{{ item.id }}</td>
+        <td>{{ item.firstName | uppercase }}</td>
+        <td>{{ item.lastName | uppercase }}</td>
+        <td>
+          <a class="btn btn-default" href="#" role="button"><i class="fas fa-info-circle"></i></a>
+        </td>
+        <td>
+          <a class="btn btn-default" ng-click="editEmployee(item.id)" role="button"><i class="far fa-edit"></i></a>
+        </td> 
+        <td>
+          <a class="btn btn-default" ng-click="deleteEmployee(item.id)"  role="button"><i class="far fa-trash-alt"></i></a>
+        </td>
+      </tr>
+     
+    </tbody>
+</table>

@@ -21,9 +21,9 @@ public class RESTCorsResponseFilter implements ContainerResponseFilter {
 
         logger.info( "Executing REST response filter" );
 
-        responseContext.getHeaders().add( "Access-Control-Allow-Origin", "*" );
+        responseContext.getHeaders().add( "Access-Control-Allow-Origin", "http://127.0.0.1:5500" );
         responseContext.getHeaders().add( "Access-Control-Allow-Credentials", "true" );
-        responseContext.getHeaders().add("Access-Control-Allow-Headers", "X-Custom-Header");
+        responseContext.getHeaders().add("Access-Control-Allow-Headers", "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
         responseContext.getHeaders().add( "Access-Control-Allow-Methods", "GET, POST, DELETE, PUT. OPTIONS, HEAD" );
     }
 

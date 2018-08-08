@@ -7,12 +7,10 @@ import javax.validation.constraints.*;
 @Embeddable
 public class Address {
 
-    @Pattern(regexp = "^\\b\\pL+(?:-\\pL+)*\\b")
     @NotBlank
     @Column(name = "city")
     private String city;
 
-    @Pattern(regexp = "^\\b\\pL+(?:-\\pL+)*\\b")
     @NotBlank
     @Column(name = "country")
     private String country;
@@ -60,7 +58,7 @@ public class Address {
 
     public void setStreetNumber(Integer streetNumber) { this.streetNumber = streetNumber; }
 
-    public String getzipcode() { return zipCode; }
+    public String getZipCode() { return zipCode; }
 
     public void setZipCode(String zipCode) { this.zipCode = zipCode; }
 }

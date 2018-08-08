@@ -58,14 +58,19 @@ public class ResourcesValidator {
 
         cities.add("athens");
         cities.add("thessaloniki");
+        cities.add("patra");
         cities.add("london");
         cities.add("manchester city");
+        cities.add("liverpool");
         cities.add("mexico city");
         cities.add("guadalajara");
+        cities.add("monterrey");
         cities.add("madrid");
         cities.add("barcelona");
+        cities.add("sevilla");
         cities.add("new york");
         cities.add("los angeles");
+        cities.add("san francisco");
 
 
         if(country != null & city != null) {

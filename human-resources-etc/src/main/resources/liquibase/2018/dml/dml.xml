@@ -9,7 +9,5 @@
     <include file="changeSet-insert-data-into-department.xml" relativeToChangelogFile="true"/>
     <include file="changeSet-insert-data-into-employee.xml" relativeToChangelogFile="true"/>
     <include file="changeSet-insert-data-into-country.xml" relativeToChangelogFile="true"/>
-    <include file="changeSet-insert-data-into-mail.xml" relativeToChangelogFile="true"/>
-
 
 </databaseChangeLog>

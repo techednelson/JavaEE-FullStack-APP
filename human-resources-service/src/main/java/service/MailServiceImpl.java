@@ -18,18 +18,15 @@ public class MailServiceImpl implements MailService {
     @EJB
     private MailDAO dao;
 
-    private Mail mail;
-
     private Logger logger = LogManager.getLogger(MailServiceImpl.class.getName());
-
 
     @Override
     public void sendMail(TextMessage message) {
-        mail = new Mail();
+        Mail mail = new Mail();
 
         try {
             mail.setMailStatus(message.getText());
-            mail.setTimeStamp(new Date().toString());
+            mail.setTimeStamp(new Date());
             dao.create(mail);
             logger.info("mail persistent");
         } catch (Exception e) {

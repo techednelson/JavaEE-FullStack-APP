@@ -2,6 +2,7 @@ package model;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Date;
 
 @Entity
 @Table(name = "mail")
@@ -19,7 +20,7 @@ public class Mail implements Serializable {
     private String mailStatus;
 
     @Column(name = "time_stamp")
-    private String timestamp;
+    private Date timestamp;
 
     public Mail() { }
 
@@ -35,11 +36,11 @@ public class Mail implements Serializable {
 
     public void setMailStatus(String mail_status) { this.mailStatus = mail_status; }
 
-    public String getTimeStamp() {
+    public Date getTimeStamp() {
         return timestamp;
     }
 
-    public void setTimeStamp(String time_stamp) {
+    public void setTimeStamp(Date time_stamp) {
         this.timestamp = time_stamp;
     }
 

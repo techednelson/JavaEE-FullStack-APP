@@ -4,11 +4,11 @@
     <list default="true" id="9c0bf2eb-3536-432a-9687-3f3c53d49445" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-etc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-etc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-employee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-employee.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/ResourcesValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/ResourcesValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsRequestFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsResponseFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/changeSet-create-tables.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/changeSet-create-tables.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-mail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/dml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/dml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Mail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-service/src/main/java/service/MailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/src/main/java/service/MailServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/sample-dao/target/" />
     <ignored path="$PROJECT_DIR$/sample-rest/target/" />
@@ -84,24 +84,25 @@
     <session id="284543748">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
           <entry key="html" value="5" />
-          <entry key="java" value="112" />
+          <entry key="java" value="115" />
           <entry key="js" value="10" />
           <entry key="png" value="4" />
-          <entry key="xml" value="16" />
+          <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -109,27 +110,27 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="5" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="112" />
+          <entry key="JAVA" value="115" />
           <entry key="JavaScript" value="10" />
-          <entry key="XML" value="16" />
+          <entry key="XML" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
           <entry key="html" value="16" />
-          <entry key="java" value="1892" />
+          <entry key="java" value="1904" />
           <entry key="js" value="65" />
-          <entry key="xml" value="52" />
+          <entry key="xml" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="16" />
-          <entry key="JAVA" value="1892" />
+          <entry key="JAVA" value="1904" />
           <entry key="JavaScript" value="65" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="XML" value="52" />
+          <entry key="XML" value="78" />
         </counts>
       </usages-collector>
     </session>
@@ -140,10 +141,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsRequestFilter.java">
+        <entry file="file://$PROJECT_DIR$/human-resources-etc/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="435">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/dml.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="91" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Mail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/human-resources-service/src/main/java/service/MailServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/changeSet-create-tables.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="106" column="48" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -157,7 +206,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Address.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -169,7 +218,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/ResourcesValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="811">
+            <state relative-caret-position="945">
               <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
             </state>
           </provider>
@@ -178,7 +227,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Department.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="135">
               <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
@@ -200,7 +249,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-country.xml" />
         <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/changeSet-create-SEQ.xml" />
         <option value="$PROJECT_DIR$/human-resources-service/src/main/java/service/CountryService.java" />
         <option value="$PROJECT_DIR$/human-resources-dao/src/main/java/dao/CountryDAO.java" />
@@ -229,9 +277,6 @@
         <option value="$PROJECT_DIR$/human-resources-service/src/main/java/service/CountryServiceImpl.java" />
         <option value="$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/CountryBoundary.java" />
         <option value="$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/CountryResource.java" />
-        <option value="$PROJECT_DIR$/human-resources-service/src/main/java/service/MailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Mail.java" />
-        <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/changeSet-create-tables.xml" />
         <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-mail.xml" />
         <option value="$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/DepartmentResource.java" />
         <option value="$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/EmployeeBoundary.java" />
@@ -245,12 +290,16 @@
         <option value="$PROJECT_DIR$/human-resources-web/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/human-resources-web/src/main/webapp/views/home.html" />
         <option value="$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/employeeCtrl.js" />
-        <option value="$PROJECT_DIR$/human-resources-etc/pom.xml" />
         <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-employee.xml" />
         <option value="$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/ResourcesValidator.java" />
         <option value="$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/CORSFilter.java" />
         <option value="$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsResponseFilter.java" />
         <option value="$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Address.java" />
+        <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/changeSet-create-tables.xml" />
+        <option value="$PROJECT_DIR$/human-resources-etc/pom.xml" />
+        <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/dml.xml" />
+        <option value="$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Mail.java" />
+        <option value="$PROJECT_DIR$/human-resources-service/src/main/java/service/MailServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -267,9 +316,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="25" />
-    <option name="width" value="889" />
+    <option name="width" value="1920" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -280,6 +329,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -292,49 +342,48 @@
             <path>
               <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="human-resources-persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="human-resources-persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="human-resources-persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="human-resources-persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="human-resources-persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533759870203" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533812025131" />
     <property name="last.edited.regexp" value="1000" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../GitRepo/omniacore" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -410,12 +459,13 @@
       <workItem from="1533451011476" duration="2024000" />
       <workItem from="1533627086274" duration="3232000" />
       <workItem from="1533680154391" duration="1226000" />
-      <workItem from="1533730811046" duration="3301000" />
+      <workItem from="1533730811046" duration="3967000" />
+      <workItem from="1533809911160" duration="1594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90093000" />
+    <option name="totallyTimeSpent" value="92353000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,9 +477,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="889" height="1055" extended-state="4" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.32265717" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.2411953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -516,13 +566,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/human-resources-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-service/src/main/java/service/CountryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -570,45 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-service/src/main/java/service/MailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-dao/src/main/java/dao/CountryDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/changeSet-create-tables.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="106" column="31" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Mail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-mail.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -709,13 +717,6 @@
     <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/images/jumbotrom_image.png" />
     <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/images/international_presence.png" />
     <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/images/mini_logo.png" />
-    <entry file="file://$PROJECT_DIR$/human-resources-etc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-employee.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="571">
@@ -733,13 +734,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/CORSFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/CORSFilter.java" />
     <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsRequestFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -754,24 +749,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/ResourcesValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
+        <state relative-caret-position="945">
           <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Department.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="135">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Address.java">
+    <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-mail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/changeSet-create-tables.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="106" column="48" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-etc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/dml.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="10" column="91" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Mail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-service/src/main/java/service/MailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

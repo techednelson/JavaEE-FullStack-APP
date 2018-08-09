@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c0bf2eb-3536-432a-9687-3f3c53d49445" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-etc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-etc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsRequestFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsResponseFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsResponseFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/EmployeeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/EmployeeResource.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/sample-dao/target/" />
     <ignored path="$PROJECT_DIR$/sample-rest/target/" />
@@ -89,9 +85,10 @@
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -99,7 +96,7 @@
           <entry key="css" value="1" />
           <entry key="html" value="5" />
           <entry key="java" value="119" />
-          <entry key="js" value="10" />
+          <entry key="js" value="12" />
           <entry key="png" value="4" />
           <entry key="xml" value="22" />
         </counts>
@@ -110,7 +107,7 @@
           <entry key="HTML" value="5" />
           <entry key="Image" value="4" />
           <entry key="JAVA" value="119" />
-          <entry key="JavaScript" value="10" />
+          <entry key="JavaScript" value="12" />
           <entry key="XML" value="22" />
         </counts>
       </usages-collector>
@@ -142,19 +139,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/EmployeeResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
+            <state relative-caret-position="915">
               <caret line="76" selection-start-line="76" selection-end-line="76" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsResponseFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/departmentCtrl.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/services/addressService.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -240,11 +247,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-504" />
-    <option name="y" value="145" />
-    <option name="width" value="1910" />
-    <option name="height" value="789" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="y" value="25" />
+    <option name="width" value="960" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -256,7 +262,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,8 +301,7 @@
               <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -305,30 +309,20 @@
               <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEE-Backend-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533812314317" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533848650256" />
     <property name="last.edited.regexp" value="1000" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../GitRepo/omniacore" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -407,11 +401,12 @@
       <workItem from="1533730811046" duration="3967000" />
       <workItem from="1533809911160" duration="2052000" />
       <workItem from="1533819186820" duration="1276000" />
+      <workItem from="1533848337845" duration="237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94087000" />
+    <option name="totallyTimeSpent" value="94324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,9 +419,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="960" height="1055" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.2045952" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.42450765" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -444,7 +438,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29405406" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29405406" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" />
@@ -513,11 +507,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/human-resources-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-service/src/main/java/service/MailService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -646,7 +635,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/services/departmentService.js" />
-    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/departmentCtrl.js" />
     <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/images/jumbotrom_image.png" />
     <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/images/international_presence.png" />
     <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/images/mini_logo.png" />
@@ -680,9 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,7 +732,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/EmployeeResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
+        <state relative-caret-position="915">
           <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
@@ -755,9 +740,15 @@
     <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsResponseFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/departmentCtrl.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/services/addressService.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

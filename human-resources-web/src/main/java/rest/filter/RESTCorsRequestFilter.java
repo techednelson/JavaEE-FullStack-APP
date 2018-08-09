@@ -20,7 +20,7 @@ public class RESTCorsRequestFilter implements ContainerRequestFilter {
         logger.info( "Executing REST request filter" );
 
         // When HttpMethod comes as OPTIONS, just acknowledge that it accepts...
-        if ( requestCtx.getRequest().getMethod().equals( "OPTIONS" ) ) {
+        if ( requestCtx.getRequest().getMethod().equals( "OPTIONS" )) {
             logger.info( "HTTP Method (OPTIONS) - Detected!" );
 
             // Just send a OK signal back to the browser

@@ -75,7 +75,6 @@ public class EmployeeResource {
         return Response.ok(employee).build();
     }
 
-
     @PUT
     @Produces(MediaType.APPLICATION_JSON)
     public Response updateEmployee(Employee employee) throws NotMergedEntityException {

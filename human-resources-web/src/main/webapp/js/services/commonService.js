@@ -1,4 +1,4 @@
-var services = angular.module('addressService', []);
+var services = angular.module('commonService', []);
 
 services.factory('locationFactory', function () {
   return {
@@ -9,4 +9,3 @@ services.factory('locationFactory', function () {
       USA : ['new york', 'los angeles', 'san francisco']
   };
 });
-

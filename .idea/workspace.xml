@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c0bf2eb-3536-432a-9687-3f3c53d49445" name="Default Changelist" comment="" />
+    <list default="true" id="9c0bf2eb-3536-432a-9687-3f3c53d49445" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/sample-dao/target/" />
     <ignored path="$PROJECT_DIR$/sample-rest/target/" />
     <ignored path="$PROJECT_DIR$/liquibase/target/" />
@@ -140,34 +142,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
+          <entry key="css" value="1" />
+          <entry key="html" value="5" />
           <entry key="java" value="6" />
-          <entry key="js" value="3" />
+          <entry key="js" value="5" />
           <entry key="png" value="1" />
-          <entry key="xml" value="9" />
+          <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="5" />
           <entry key="Image" value="1" />
           <entry key="JAVA" value="6" />
-          <entry key="JavaScript" value="3" />
-          <entry key="XML" value="9" />
+          <entry key="JavaScript" value="5" />
+          <entry key="XML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="26" />
+          <entry key="html" value="55" />
           <entry key="java" value="12" />
-          <entry key="xml" value="34" />
+          <entry key="xml" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="26" />
+          <entry key="HTML" value="55" />
           <entry key="JAVA" value="12" />
-          <entry key="XML" value="34" />
+          <entry key="XML" value="50" />
         </counts>
       </usages-collector>
     </session>
@@ -177,49 +181,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/human-resources-etc/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
+            <state relative-caret-position="183">
               <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Country.java">
+        <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/views/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/employeeCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="450">
+              <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Department.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/changeSet-create-tables.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1665">
-              <caret line="111" column="21" selection-start-line="111" selection-start-column="21" selection-end-line="111" selection-end-column="21" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -281,13 +263,13 @@
         <option value="$PROJECT_DIR$/human-resources-web/src/main/java/rest/filter/RESTCorsResponseFilter.java" />
         <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-employee.xml" />
         <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/dml/changeSet-insert-data-into-department.xml" />
-        <option value="$PROJECT_DIR$/human-resources-web/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/human-resources-web/src/main/webapp/views/home.html" />
         <option value="$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Department.java" />
         <option value="$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Employee.java" />
         <option value="$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Mail.java" />
         <option value="$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Country.java" />
         <option value="$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/changeSet-create-tables.xml" />
+        <option value="$PROJECT_DIR$/human-resources-web/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/human-resources-web/src/main/webapp/views/home.html" />
         <option value="$PROJECT_DIR$/human-resources-etc/pom.xml" />
       </list>
     </option>
@@ -306,7 +288,6 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="960" />
     <option name="y" value="25" />
     <option name="width" value="960" />
     <option name="height" value="1055" />
@@ -329,32 +310,6 @@
               <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaEE-Fullstack-APP" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEE-Fullstack-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEE-Fullstack-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEE-Fullstack-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaEE-Fullstack-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -364,7 +319,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534413587472" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534414275611" />
     <property name="last.edited.regexp" value="1000" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -384,10 +339,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/human-resources-web/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/human-resources-web/src/main/webapp/js/services" />
+      <recent name="$PROJECT_DIR$/human-resources-web/src/main/webapp/js" />
       <recent name="$PROJECT_DIR$/human-resources-web/src/main/webapp/images" />
       <recent name="$PROJECT_DIR$/human-resources-web/src/main/webapp/views" />
-      <recent name="$PROJECT_DIR$/human-resources-web/src/main/webapp/js" />
-      <recent name="$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -449,12 +404,12 @@
       <workItem from="1534102624106" duration="4401000" />
       <workItem from="1534405615546" duration="481000" />
       <workItem from="1534406135521" duration="3065000" />
-      <workItem from="1534410659183" duration="2741000" />
+      <workItem from="1534410659183" duration="3610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105708000" />
+    <option name="totallyTimeSpent" value="106577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,9 +421,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="0" y="25" width="960" height="1055" extended-state="4" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.22091782" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.45295405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -486,7 +441,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29297298" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29297298" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" />
@@ -555,13 +510,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/EmployeeBoundary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/DepartmentBoundary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -608,7 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/css/style.css" />
     <entry file="file://$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/images/international_presence.png" />
     <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/services/services.js" />
     <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/employee.js" />
@@ -704,27 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="46" column="81" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/views/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/changeSet-create-fk.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/ddl.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-etc/src/main/resources/liquibase/2018/ddl/changeSet-create-SEQ.xml">
@@ -740,9 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Mail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -754,6 +681,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/employeeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/services/commonService.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="49" column="79" lean-forward="true" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -771,24 +728,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-etc/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
+        <state relative-caret-position="183">
           <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-persistence/src/main/java/model/Country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/employeeCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
         </state>
       </provider>
     </entry>

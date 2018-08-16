@@ -10,6 +10,13 @@ public class Mail implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    /**
+     * Version for optimistic locking
+     */
+    @Version
+    @Column(name = "DBVERSION", nullable = false, columnDefinition = "INTEGER DEFAULT 0")
+    private int version;
+
     @Id
     @SequenceGenerator(name = "MAIL_SEQ", sequenceName = "MAIL_SEQ", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "MAIL_SEQ")

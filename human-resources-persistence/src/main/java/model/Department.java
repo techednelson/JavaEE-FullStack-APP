@@ -17,6 +17,13 @@ public class Department implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    /**
+     * Version for optimistic locking
+     */
+    @Version
+    @Column(name = "DBVERSION", nullable = false, columnDefinition = "INTEGER DEFAULT 0")
+    private int version;
+
     @Id
     @SequenceGenerator(name = "DEPARTMENT_SEQ", sequenceName = "DEPARTMENT_SEQ", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "DEPARTMENT_SEQ")

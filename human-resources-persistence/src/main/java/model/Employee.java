@@ -15,6 +15,13 @@ public class Employee  implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    /**
+     * Version for optimistic locking
+     */
+    @Version
+    @Column(name = "DBVERSION", nullable = false, columnDefinition = "INTEGER DEFAULT 0")
+    private int version;
+
     @Id
     @SequenceGenerator(name = "EMPLOYEE_SEQ", sequenceName = "EMPLOYEE_SEQ", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "EMPLOYEE_SEQ")

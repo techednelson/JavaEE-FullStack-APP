@@ -36,7 +36,7 @@ public class Employee  implements Serializable {
     @Past
     @NotBlank
     @Temporal(TemporalType.DATE)
-    @Column(name = "birth_date", updatable = false)
+    @Column(name = "birth_date")
     private Date birthDate;
 
     @Pattern(regexp = "^\\d+")
@@ -58,7 +58,7 @@ public class Employee  implements Serializable {
     @Past
     @NotBlank
     @Temporal(TemporalType.DATE)
-    @Column(name = "join_date", updatable = false)
+    @Column(name = "join_date")
     private Date joinDate;
 
     @Embedded

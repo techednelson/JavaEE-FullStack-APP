@@ -1,3 +1,0 @@
-exceptions/NotCreateNamedQueryException.class
-exceptions/NotPersistedEntityException.class
-exceptions/NotMergedEntityException.class

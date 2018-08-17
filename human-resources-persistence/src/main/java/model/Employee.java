@@ -1,5 +1,7 @@
 package model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import javax.persistence.*;
 import javax.validation.Valid;
 import javax.validation.constraints.*;
@@ -39,7 +41,7 @@ public class Employee  implements Serializable {
 
     @Past
     @NotBlank
-    @Temporal(TemporalType.DATE)
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
     @Column(name = "birth_date")
     private Date birthDate;
 
@@ -61,7 +63,7 @@ public class Employee  implements Serializable {
 
     @Past
     @NotBlank
-    @Temporal(TemporalType.DATE)
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
     @Column(name = "join_date")
     private Date joinDate;
 

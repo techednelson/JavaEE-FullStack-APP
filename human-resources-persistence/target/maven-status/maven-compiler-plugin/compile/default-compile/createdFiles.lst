@@ -1,6 +1,0 @@
-model/Mail.class
-model/Address.class
-model/Department.class
-model/Mail$MailEnum.class
-model/Country.class
-model/Employee.class

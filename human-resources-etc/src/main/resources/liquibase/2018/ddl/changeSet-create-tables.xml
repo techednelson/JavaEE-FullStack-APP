@@ -89,9 +89,6 @@
     <!--Country Table-->
     <changeSet id="createCountry" author="nelson">
         <createTable tableName="country">
-            <column name="DBVERSION" type="INTEGER" defaultValue="0">
-                <constraints nullable="false" />
-            </column>
             <column name="country_id" type="int">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
@@ -107,9 +104,6 @@
     <!--Mail Table-->
     <changeSet id="createMail" author="nelson">
         <createTable tableName="mail">
-            <column name="DBVERSION" type="INTEGER" defaultValue="0">
-                <constraints nullable="false" />
-            </column>
             <column name="mail_id" type="int">
                 <constraints primaryKey="true" nullable="false"/>
             </column>

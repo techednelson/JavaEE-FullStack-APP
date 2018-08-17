@@ -25,7 +25,11 @@ public class MailServiceImpl implements MailService {
         Mail mail = new Mail();
 
         try {
-            mail.setMailStatus(message.getText());
+            if(message.getText().equals("create")) {
+                mail.setMailStatus(Mail.MailEnum.CREATE);
+            } else {
+                mail.setMailStatus(Mail.MailEnum.UPDATE);
+            }
             mail.setTimeStamp(new Date());
             dao.create(mail);
             logger.info("mail persistent");

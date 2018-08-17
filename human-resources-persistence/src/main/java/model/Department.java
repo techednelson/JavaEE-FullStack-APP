@@ -17,9 +17,6 @@ public class Department implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    /**
-     * Version for optimistic locking
-     */
     @Version
     @Column(name = "DBVERSION", nullable = false, columnDefinition = "INTEGER DEFAULT 0")
     private int version;

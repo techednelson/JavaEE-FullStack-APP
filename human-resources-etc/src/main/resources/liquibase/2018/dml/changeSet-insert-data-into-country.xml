@@ -20,8 +20,14 @@
 
         <insert dbms="postgresql" tableName="country">
             <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
-            <column name="country_name" value="mexico" />
-            <column name="city" value="guadalajara" />
+            <column name="country_name" value="greece" />
+            <column name="city" value="thessaloniki" />
+        </insert>
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
+            <column name="country_name" value="greece" />
+            <column name="city" value="patra" />
         </insert>
 
         <insert dbms="postgresql" tableName="country">
@@ -32,14 +38,68 @@
 
         <insert dbms="postgresql" tableName="country">
             <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
+            <column name="country_name" value="mexico" />
+            <column name="city" value="guadalajara" />
+        </insert>
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
+            <column name="country_name" value="mexico" />
+            <column name="city" value="monterrey" />
+        </insert>
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
             <column name="country_name" value="england" />
             <column name="city" value="london" />
         </insert>
 
         <insert dbms="postgresql" tableName="country">
             <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
-            <column name="country_name" value="greece" />
-            <column name="city" value="thessaloniki" />
+            <column name="country_name" value="england" />
+            <column name="city" value="manchester city" />
+        </insert>
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
+            <column name="country_name" value="england" />
+            <column name="city" value="liverpool" />
+        </insert>
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
+            <column name="country_name" value="spain" />
+            <column name="city" value="madrid" />
+        </insert>
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
+            <column name="country_name" value="spain" />
+            <column name="city" value="barcelona" />
+        </insert>
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
+            <column name="country_name" value="spain" />
+            <column name="city" value="sevilla" />
+        </insert>
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
+            <column name="country_name" value="USA" />
+            <column name="city" value="new york" />
+        </insert>
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
+            <column name="country_name" value="USA" />
+            <column name="city" value="los angeles" />
+        </insert>
+
+        <insert dbms="postgresql" tableName="country">
+            <column name="country_id" valueSequenceNext="COUNTRY_SEQ"/>
+            <column name="country_name" value="USA" />
+            <column name="city" value="san francisco" />
         </insert>
 
     </changeSet>

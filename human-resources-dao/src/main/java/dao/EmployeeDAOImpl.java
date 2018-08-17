@@ -58,7 +58,17 @@ public class EmployeeDAOImpl implements EmployeeDAO {
     @Override
     public boolean updateEmployee(Employee employee) throws NotMergedEntityException {
         try {
-            entityManager.merge(employee);
+            Employee tempEmployee = findEmployeeById(employee.getId());
+            tempEmployee.setFirstName(employee.getFirstName());
+            tempEmployee.setLastName(employee.getLastName());
+            tempEmployee.setBirthDate(employee.getBirthDate());
+            tempEmployee.setAddress(employee.getAddress());
+            tempEmployee.setPhoneNumber(employee.getPhoneNumber());
+            tempEmployee.setEmail(employee.getEmail());
+            tempEmployee.setSalary(employee.getSalary());
+            tempEmployee.setDepartment(employee.getDepartment());
+            tempEmployee.setJoinDate(employee.getJoinDate());
+
             return true;
         } catch (Exception e) {
             throw new NotMergedEntityException("Entity Manager failed to merge the updated employee");

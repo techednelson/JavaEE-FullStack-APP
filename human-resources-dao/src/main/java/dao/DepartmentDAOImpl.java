@@ -60,7 +60,9 @@ public class DepartmentDAOImpl implements  DepartmentDAO {
     public void updateDepartment(Department department) throws NotMergedEntityException {
 
         try {
-            entityManager.merge(department);
+            Department tempDepartment = findDepartmentById(department.getId());
+            tempDepartment.setName(department.getName());
+            tempDepartment.setAddress(department.getAddress());
         } catch (Exception e) {
            throw new NotMergedEntityException("Entity Manager failed to update department");
         }

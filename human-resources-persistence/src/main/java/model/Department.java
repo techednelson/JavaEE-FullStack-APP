@@ -31,7 +31,7 @@ public class Department implements Serializable {
     private Integer id;
 
     @NotBlank
-    @Size(min = 3, max = 15)
+    @Size(min = 2, max = 15)
     @Column(name = "department_name")
     private String name;
 

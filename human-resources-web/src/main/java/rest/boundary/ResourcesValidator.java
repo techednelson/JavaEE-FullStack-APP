@@ -50,27 +50,27 @@ public class ResourcesValidator {
 
     public boolean validateLocation(String country, String city) {
 
-        countries.add("greece");
-        countries.add("mexico");
-        countries.add("england");
-        countries.add("spain");
+        countries.add("GREECE");
+        countries.add("MEXICO");
+        countries.add("ENGLAND");
+        countries.add("SPAIN");
         countries.add("USA");
 
-        cities.add("athens");
-        cities.add("thessaloniki");
-        cities.add("patra");
-        cities.add("london");
-        cities.add("manchester city");
-        cities.add("liverpool");
-        cities.add("mexico city");
-        cities.add("guadalajara");
-        cities.add("monterrey");
-        cities.add("madrid");
-        cities.add("barcelona");
-        cities.add("sevilla");
-        cities.add("new york");
-        cities.add("los angeles");
-        cities.add("san francisco");
+        cities.add("ATHENS");
+        cities.add("THESSALONIKI");
+        cities.add("PATRA");
+        cities.add("LONDON");
+        cities.add("MANCHESTER CITY");
+        cities.add("LIVERPOOL");
+        cities.add("MEXICO CITY");
+        cities.add("GUADALAJARA");
+        cities.add("MONTERREY");
+        cities.add("MADRID");
+        cities.add("BARCELONA");
+        cities.add("SEVILLA");
+        cities.add("NEW YORK");
+        cities.add("LOS ANGELES");
+        cities.add("SAN FRANCISCO");
 
 
         if(country != null & city != null) {

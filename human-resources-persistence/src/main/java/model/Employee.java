@@ -41,7 +41,7 @@ public class Employee  implements Serializable {
 
     @Past
     @NotBlank
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
     @Column(name = "birth_date")
     private Date birthDate;
 
@@ -63,7 +63,7 @@ public class Employee  implements Serializable {
 
     @Past
     @NotBlank
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
     @Column(name = "join_date")
     private Date joinDate;
 

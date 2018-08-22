@@ -23,8 +23,8 @@
             <column name="email" value="john@gmail.com" />
             <column name="salary" value="1000" />
             <column name="join_date" value="${now}" />
-            <column name="city" value="athens" />
-            <column name="country" value="greece" />
+            <column name="city" value="ATHENS" />
+            <column name="country" value="GREECE" />
             <column name="street" value="thisseos" />
             <column name="street_number" value="330" />
             <column name="zip_code" value="123456" />
@@ -40,8 +40,8 @@
             <column name="email" value="will@gmail.com" />
             <column name="salary" value="1000" />
             <column name="join_date" value="${now}" />
-            <column name="city" value="guadalajara" />
-            <column name="country" value="mexico" />
+            <column name="city" value="GUADALAJARA" />
+            <column name="country" value="MEXICO" />
             <column name="street" value="venustiano carranza" />
             <column name="street_number" value="213" />
             <column name="zip_code" value="123456" />
@@ -57,8 +57,8 @@
             <column name="email" value="luis@gmail.com" />
             <column name="salary" value="1000" />
             <column name="join_date" value="${now}" />
-            <column name="city" value="london" />
-            <column name="country" value="england" />
+            <column name="city" value="LONDON" />
+            <column name="country" value="ENGLAND" />
             <column name="street" value="oxford" />
             <column name="street_number" value="100" />
             <column name="zip_code" value="123456" />
@@ -75,7 +75,7 @@
             <column name="salary" value="1000" />
             <column name="join_date" value="${now}" />
             <column name="city" value="USA" />
-            <column name="country" value="new york" />
+            <column name="country" value="NEW YORK" />
             <column name="street" value="big apple" />
             <column name="street_number" value="321" />
             <column name="zip_code" value="123456" />
@@ -91,8 +91,8 @@
             <column name="email" value="carlos@gmail.com" />
             <column name="salary" value="1000" />
             <column name="join_date" value="${now}" />
-            <column name="city" value="barcelona" />
-            <column name="country" value="spain" />
+            <column name="city" value="BARCELONA" />
+            <column name="country" value="SPAIN" />
             <column name="street" value="adolfo mateos" />
             <column name="street_number" value="104" />
             <column name="zip_code" value="123456" />

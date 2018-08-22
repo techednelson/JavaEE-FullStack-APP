@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: nelson
+Class-Path: human-resources-service-1.0.jar lib/human-resources-persis
+ tence-1.0.jar lib/javax.persistence-api-2.2.jar lib/jackson-databind-
+ 2.9.4.jar lib/jackson-annotations-2.9.0.jar lib/jackson-core-2.9.4.ja
+ r lib/human-resources-service-1.0.jar lib/human-resources-dao-1.0.jar
+  lib/human-resources-commons-1.0.jar lib/log4j-core-2.7.jar lib/log4j
+ -api-2.7.jar lib/human-resources-persistence-1.0.jar lib/javax.persis
+ tence-api-2.2.jar lib/jackson-databind-2.9.4.jar lib/jackson-annotati
+ ons-2.9.0.jar lib/jackson-core-2.9.4.jar lib/log4j-core-2.7.jar lib/l
+ og4j-api-2.7.jar lib/javaee-api-8.0.jar lib/javax.mail-1.6.0.jar lib/
+ activation-1.1.jar lib/human-resources-commons-1.0.jar
+Created-By: Apache Maven 3.5.2
+Build-Jdk: 1.8.0_162
+

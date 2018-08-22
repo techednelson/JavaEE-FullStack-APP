@@ -9,14 +9,13 @@
                dbms="postgresql"
                failOnError="true"
                runAlways="${runalwaysflag}"
-               runOnChange="${runonchangeflag}"
-               runInTransaction="true">
+               runOnChange="${runonchangeflag}">
 
         <insert dbms="postgresql" tableName="department" >
             <column name="id" valueSequenceNext="DEPARTMENT_SEQ"/>
-            <column name="department_name" value="hr" />
-            <column name="city" value="thessaloniki" />
-            <column name="country" value="greece" />
+            <column name="department_name" value="HR" />
+            <column name="city" value="THESSALONIKI" />
+            <column name="country" value="GREECE" />
             <column name="street" value="rodos" />
             <column name="street_number" value="300" />
             <column name="zip_code" value="123456" />
@@ -24,9 +23,9 @@
 
         <insert dbms="postgresql" tableName="department">
             <column name="id" valueSequenceNext="DEPARTMENT_SEQ"/>
-            <column name="department_name" value="it" />
-            <column name="city" value="monterrey" />
-            <column name="country" value="mexico" />
+            <column name="department_name" value="IT" />
+            <column name="city" value="MONTERREY" />
+            <column name="country" value="MEXICO" />
             <column name="street" value="benito juarez" />
             <column name="street_number" value="209" />
             <column name="zip_code" value="123456" />
@@ -34,9 +33,9 @@
 
         <insert dbms="postgresql" tableName="department">
             <column name="id" valueSequenceNext="DEPARTMENT_SEQ"/>
-            <column name="department_name" value="sales" />
-            <column name="city" value="manchester city" />
-            <column name="country" value="england" />
+            <column name="department_name" value="SALES" />
+            <column name="city" value="MANCHESTER CITY" />
+            <column name="country" value="ENGLAND" />
             <column name="street" value="wellington" />
             <column name="street_number" value="150" />
             <column name="zip_code" value="123456" />
@@ -44,8 +43,8 @@
 
         <insert dbms="postgresql" tableName="department">
             <column name="id" valueSequenceNext="DEPARTMENT_SEQ"/>
-            <column name="department_name" value="marketing" />
-            <column name="city" value="los angeles" />
+            <column name="department_name" value="QA" />
+            <column name="city" value="LOS ANGELES" />
             <column name="country" value="USA" />
             <column name="street" value="tulipanes" />
             <column name="street_number" value="080" />
@@ -54,9 +53,9 @@
 
         <insert dbms="postgresql" tableName="department">
             <column name="id" valueSequenceNext="DEPARTMENT_SEQ"/>
-            <column name="department_name" value="development" />
-            <column name="city" value="madrid" />
-            <column name="country" value="spain" />
+            <column name="department_name" value="DEV" />
+            <column name="city" value="MADRID" />
+            <column name="country" value="SPAIN" />
             <column name="street" value="dr oscar de la hoya" />
             <column name="street_number" value="279" />
             <column name="zip_code" value="123456" />

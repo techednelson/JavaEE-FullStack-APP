@@ -41,7 +41,6 @@ public class Employee  implements Serializable {
 
     @Past
     @NotBlank
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
     @Column(name = "birth_date")
     private Date birthDate;
 
@@ -63,7 +62,6 @@ public class Employee  implements Serializable {
 
     @Past
     @NotBlank
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
     @Column(name = "join_date")
     private Date joinDate;
 
@@ -102,6 +100,7 @@ public class Employee  implements Serializable {
 
     public void setLastName(String lastName) { this.lastName = lastName; }
 
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     public Date getBirthDate() { return birthDate; }
 
     public void setBirthDate(Date birthDate) { this.birthDate = birthDate; }
@@ -126,6 +125,7 @@ public class Employee  implements Serializable {
 
     public void setDepartment(Department department) { this.department = department; }
 
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     public Date getJoinDate() { return joinDate; }
 
     public void setJoinDate(Date joinDate) { this.joinDate = joinDate; }

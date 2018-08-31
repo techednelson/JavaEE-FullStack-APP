@@ -18,7 +18,6 @@ public class EmployeeServiceImpl implements EmployeeService{
     private EmployeeDAO dao;
 
     @Override
-    @TransactionAttribute(TransactionAttributeType.REQUIRES_NEW)
     public  boolean createEmployee(Employee employee) throws NotPersistedEntityException {
         return dao.createEmployee(employee);
     }

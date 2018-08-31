@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="service.EmployeeServiceImplTest" time="0.037" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="service.EmployeeServiceImplTest" time="0.04" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/nelson/dev/jdk1.8.0_162/jre/lib/amd64"/>
@@ -66,5 +66,5 @@
   <testcase classname="service.EmployeeServiceImplTest" name="deleteEmployee" time="0.001"/>
   <testcase classname="service.EmployeeServiceImplTest" name="listEmployees" time="0.001"/>
   <testcase classname="service.EmployeeServiceImplTest" name="updateEmployee" time="0.001"/>
-  <testcase classname="service.EmployeeServiceImplTest" name="createEmployee" time="0.001"/>
+  <testcase classname="service.EmployeeServiceImplTest" name="createEmployee" time="0.004"/>
 </testsuite>

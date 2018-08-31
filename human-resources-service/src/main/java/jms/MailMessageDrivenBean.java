@@ -15,11 +15,15 @@ import javax.jms.TextMessage;
 
 
 @MessageDriven(activationConfig = {
-        @ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Queue"),
-        @ActivationConfigProperty(propertyName = "destination", propertyValue = "queue/mail") })
+        @ActivationConfigProperty(propertyName = "destinationType",
+                                    propertyValue = "javax.jms.Queue"),
+        @ActivationConfigProperty(propertyName = "destination",
+                                    propertyValue = "queue/mail") })
 public class MailMessageDrivenBean implements MessageListener {
 
-    private final Logger logger = LogManager.getLogger(MailMessageDrivenBean.class.getName());
+    private final Logger logger = LogManager.getLogger (
+            MailMessageDrivenBean.class.getName()
+            );
 
     @EJB
     private MailService service;
@@ -42,6 +46,6 @@ public class MailMessageDrivenBean implements MessageListener {
             e.printStackTrace();
         }
     }
-
-
 }
+
+

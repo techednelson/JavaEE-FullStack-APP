@@ -58,16 +58,6 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.jboss.resteasy</groupId>
-            <artifactId>resteasy-client</artifactId>
-            <version>3.0.10.Final</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jboss.resteasy</groupId>
-            <artifactId>resteasy-jackson-provider</artifactId>
-            <version>3.0.10.Final</version>
-        </dependency>
-        <dependency>
             <groupId>final-project-javaee-app</groupId>
             <artifactId>human-resources-persistence</artifactId>
             <version>${project.version}</version>

@@ -47,7 +47,11 @@ public class EmployeeBoundary {
 
         if(service.createEmployee(employee)) {
             logger.info("Sending confirmation message");
-            mailProducerJMS.sendMessage("create");
+            try {
+                mailProducerJMS.sendMessage("create");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
 
         return employee;
@@ -66,7 +70,11 @@ public class EmployeeBoundary {
     public void updateEmployee(Employee employee) throws NotMergedEntityException {
 
         if(service.updateEmployee(employee)) {
-            mailProducerJMS.sendMessage("update");
+            try {
+                mailProducerJMS.sendMessage("update");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
 

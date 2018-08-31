@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c0bf2eb-3536-432a-9687-3f3c53d49445" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-commons/target/human-resources-commons.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-commons/target/human-resources-commons.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-commons/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-commons/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-dao/src/main/java/dao/DepartmentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/src/main/java/dao/DepartmentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-dao/src/main/java/dao/DepartmentDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/src/main/java/dao/DepartmentDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-dao/src/main/java/dao/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/src/main/java/dao/EmployeeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-dao/src/main/java/dao/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/src/main/java/dao/EmployeeDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-dao/src/main/java/dao/MailDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/src/main/java/dao/MailDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-dao/src/main/java/dao/MailDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/src/main/java/dao/MailDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-dao/target/classes/dao/DepartmentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/target/classes/dao/DepartmentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-dao/target/classes/dao/DepartmentDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/target/classes/dao/DepartmentDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-dao/target/classes/dao/EmployeeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/target/classes/dao/EmployeeDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-dao/target/classes/dao/EmployeeDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/target/classes/dao/EmployeeDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-dao/target/classes/dao/MailDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/target/classes/dao/MailDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-dao/target/classes/dao/MailDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/target/classes/dao/MailDAOImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-dao/target/human-resources-dao.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/target/human-resources-dao.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-dao/target/surefire-reports/TEST-dao.DepartmentDAOImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/target/surefire-reports/TEST-dao.DepartmentDAOImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-dao/target/surefire-reports/TEST-dao.EmployeeDAOImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/target/surefire-reports/TEST-dao.EmployeeDAOImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-dao/target/surefire-reports/dao.DepartmentDAOImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/target/surefire-reports/dao.DepartmentDAOImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-dao/target/surefire-reports/dao.EmployeeDAOImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-dao/target/surefire-reports/dao.EmployeeDAOImplTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-ear/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-ear/target/rest.ear" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/rest.ear" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-ear/target/rest/human-resources-dao-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/rest/human-resources-dao-1.0.jar" afterDir="false" />
@@ -28,99 +18,33 @@
       <change beforePath="$PROJECT_DIR$/human-resources-ear/target/rest/lib/human-resources-commons-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/rest/lib/human-resources-commons-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-ear/target/rest/lib/human-resources-persistence-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/rest/lib/human-resources-persistence-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/META-INF/maven/final-project-javaee-app/human-resources-dao/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/META-INF/maven/final-project-javaee-app/human-resources-dao/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/META-INF/maven/final-project-javaee-app/human-resources-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/META-INF/maven/final-project-javaee-app/human-resources-dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/dao/DepartmentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/dao/DepartmentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/dao/DepartmentDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/dao/DepartmentDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/dao/EmployeeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/dao/EmployeeDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/dao/EmployeeDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/dao/EmployeeDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/dao/MailDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/dao/MailDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/dao/MailDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-dao-1.0.jar/dao/MailDAOImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/META-INF/maven/final-project-javaee-app/human-resources-service/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/META-INF/maven/final-project-javaee-app/human-resources-service/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/META-INF/maven/final-project-javaee-app/human-resources-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/META-INF/maven/final-project-javaee-app/human-resources-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/jms/MailMessageDrivenBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/jms/MailMessageDrivenBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/jms/MailProducerJMS.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/jms/MailProducerJMS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/service/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/service/DepartmentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/service/DepartmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/service/DepartmentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/service/EmployeeService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/service/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/service/EmployeeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/service/MailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/service/MailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/service/MailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-service-1.0.jar/service/MailServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/META-INF/maven/final-project-javaee-app/human-resources-web/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/META-INF/maven/final-project-javaee-app/human-resources-web/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/META-INF/maven/final-project-javaee-app/human-resources-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/META-INF/maven/final-project-javaee-app/human-resources-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/WEB-INF/classes/rest/boundary/DepartmentBoundary.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/WEB-INF/classes/rest/boundary/DepartmentBoundary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/WEB-INF/classes/rest/boundary/EmployeeBoundary.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/WEB-INF/classes/rest/boundary/EmployeeBoundary.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/WEB-INF/classes/rest/resources/EmployeeResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/WEB-INF/classes/rest/resources/EmployeeResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/views/create_department.html" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/views/create_department.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/views/create_employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/views/create_employee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/views/edit_department.html" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/views/edit_department.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/views/edit_employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/views/edit_employee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-ear/target/temp/human-resources-web-1.0.war/views/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-etc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-etc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-persistence/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-persistence/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-persistence/target/human-resources-persistence.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-persistence/target/human-resources-persistence.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-persistence/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-persistence/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-service/src/main/java/jms/MailProducerJMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/src/main/java/jms/MailProducerJMS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/src/main/java/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/src/main/java/service/DepartmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/src/main/java/service/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/src/main/java/service/DepartmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/src/main/java/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/src/main/java/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/src/main/java/service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/src/main/java/service/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/src/main/java/service/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/src/main/java/service/MailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/src/main/java/service/MailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/src/main/java/service/MailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/target/classes/jms/MailMessageDrivenBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/classes/jms/MailMessageDrivenBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-service/target/classes/jms/MailProducerJMS.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/classes/jms/MailProducerJMS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/target/classes/service/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/classes/service/DepartmentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/target/classes/service/DepartmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/classes/service/DepartmentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/target/classes/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/classes/service/EmployeeService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-service/target/classes/service/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/classes/service/EmployeeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/target/classes/service/MailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/classes/service/MailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/target/classes/service/MailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/classes/service/MailServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/target/human-resources-service.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/EmployeeBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/EmployeeBoundary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/EmployeeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/EmployeeResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/images/international.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/departmentCtrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/js/controllers/employeeCtrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/js/services/commonService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/js/services/departmentService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/js/services/employeeService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/views/create_department.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/views/create_employee.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/views/edit_department.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/views/edit_employee.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/views/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/views/show_departments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/src/main/webapp/views/show_employees.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/target/classes/rest/boundary/DepartmentBoundary.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/classes/rest/boundary/DepartmentBoundary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/target/classes/rest/boundary/EmployeeBoundary.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/classes/rest/boundary/EmployeeBoundary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-service/target/human-resources-service.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/human-resources-service.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-service/target/surefire-reports/TEST-service.CountryServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/surefire-reports/TEST-service.CountryServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-service/target/surefire-reports/TEST-service.DepartmentServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/surefire-reports/TEST-service.DepartmentServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-service/target/surefire-reports/TEST-service.EmployeeServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/surefire-reports/TEST-service.EmployeeServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-service/target/surefire-reports/service.CountryServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/surefire-reports/service.CountryServiceImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-service/target/surefire-reports/service.DepartmentServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/surefire-reports/service.DepartmentServiceImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/human-resources-service/target/surefire-reports/service.EmployeeServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-service/target/surefire-reports/service.EmployeeServiceImplTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-web/target/classes/rest/resources/EmployeeResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/classes/rest/resources/EmployeeResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web.war" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/classes/rest/boundary/DepartmentBoundary.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/classes/rest/boundary/DepartmentBoundary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/classes/rest/boundary/EmployeeBoundary.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/classes/rest/boundary/EmployeeBoundary.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/classes/rest/resources/EmployeeResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/classes/rest/resources/EmployeeResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/lib/human-resources-commons-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/lib/human-resources-commons-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/lib/human-resources-dao-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/lib/human-resources-dao-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/lib/human-resources-persistence-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/lib/human-resources-persistence-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/lib/human-resources-service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/WEB-INF/lib/human-resources-service-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/views/create_department.html" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/views/create_department.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/views/create_employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/views/create_employee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/views/edit_department.html" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/views/edit_department.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/views/edit_employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/views/edit_employee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/human-resources-web/views/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/human-resources-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/human-resources-web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/sample-dao/target/" />
     <ignored path="$PROJECT_DIR$/sample-rest/target/" />
@@ -276,11 +200,11 @@
         <counts>
           <entry key="css" value="5" />
           <entry key="html" value="16" />
-          <entry key="java" value="296" />
+          <entry key="java" value="297" />
           <entry key="js" value="14" />
           <entry key="png" value="1" />
           <entry key="sh" value="1" />
-          <entry key="xml" value="84" />
+          <entry key="xml" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -289,27 +213,27 @@
           <entry key="CSS" value="5" />
           <entry key="HTML" value="16" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="296" />
+          <entry key="JAVA" value="297" />
           <entry key="JavaScript" value="14" />
-          <entry key="XML" value="84" />
+          <entry key="XML" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="22" />
           <entry key="html" value="92" />
-          <entry key="java" value="7603" />
+          <entry key="java" value="7636" />
           <entry key="js" value="7" />
-          <entry key="xml" value="736" />
+          <entry key="xml" value="745" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="22" />
           <entry key="HTML" value="92" />
-          <entry key="JAVA" value="7603" />
+          <entry key="JAVA" value="7636" />
           <entry key="JavaScript" value="7" />
-          <entry key="XML" value="736" />
+          <entry key="XML" value="745" />
         </counts>
       </usages-collector>
     </session>
@@ -320,10 +244,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/EmployeeBoundary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/human-resources-service/src/main/java/jms/MailProducerJMS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="315">
+              <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -331,11 +264,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/human-resources-service/src/main/java/jms/MailMessageDrivenBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="157">
               <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/human-resources-etc/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -374,7 +316,6 @@
         <option value="$PROJECT_DIR$/human-resources-service/src/main/java/jms/MailMessageDrivenBean.java" />
         <option value="$PROJECT_DIR$/human-resources-service/src/main/java/service/MailServiceImplTest.java" />
         <option value="$PROJECT_DIR$/human-resources-web/src/test/EmployeeResourceTest.java" />
-        <option value="$PROJECT_DIR$/human-resources-etc/pom.xml" />
         <option value="$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/EmployeeResourceTest.java" />
         <option value="$PROJECT_DIR$/human-resources-web/src/test/java/rest/EmployeeResourceTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -406,9 +347,10 @@
         <option value="$PROJECT_DIR$/human-resources-service/src/test/java/service/EmployeeServiceImplTest.java" />
         <option value="$PROJECT_DIR$/human-resources-dao/src/main/java/dao/EmployeeDAOImpl.java" />
         <option value="$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/EmployeeBoundary.java" />
-        <option value="$PROJECT_DIR$/human-resources-service/src/main/java/jms/MailProducerJMS.java" />
         <option value="$PROJECT_DIR$/human-resources-service/src/main/java/service/EmployeeServiceImpl.java" />
         <option value="$PROJECT_DIR$/human-resources-web/src/main/java/rest/resources/EmployeeResource.java" />
+        <option value="$PROJECT_DIR$/human-resources-service/src/main/java/jms/MailProducerJMS.java" />
+        <option value="$PROJECT_DIR$/human-resources-etc/pom.xml" />
       </list>
     </option>
   </component>
@@ -425,7 +367,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="383" />
     <option name="y" value="27" />
     <option name="width" value="950" />
@@ -448,6 +390,66 @@
               <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaEE-Fullstack-APP" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-Fullstack-APP" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-etc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-Fullstack-APP" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-Fullstack-APP" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-Fullstack-APP" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-Fullstack-APP" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-Fullstack-APP" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-Fullstack-APP" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="boundary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="human-resources-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaEE-Fullstack-APP" type="462c0819:PsiDirectoryNode" />
+              <item name="human-resources-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -458,7 +460,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535716195087" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535717341952" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -717,9 +719,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="7" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.29295623" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.29295623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -738,7 +740,7 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32972974" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4677778" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4677778" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053364" side_tool="true" weight="0.32864866" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Spring" order="11" />
@@ -919,13 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-etc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1148,27 +1143,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/human-resources-service/src/main/java/jms/MailMessageDrivenBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-web/src/main/java/rest/boundary/EmployeeBoundary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="142">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/human-resources-service/src/main/java/jms/MailProducerJMS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/human-resources-service/src/main/java/jms/MailMessageDrivenBean.java">
+    <entry file="file://$PROJECT_DIR$/human-resources-etc/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        <state relative-caret-position="75">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
         </state>
       </provider>
     </entry>

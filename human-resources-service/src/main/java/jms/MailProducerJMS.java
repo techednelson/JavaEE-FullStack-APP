@@ -2,9 +2,12 @@ package jms;
 
 import javax.annotation.Resource;
 import javax.ejb.Stateless;
+import javax.ejb.TransactionAttribute;
+import javax.ejb.TransactionAttributeType;
 import javax.jms.*;
 
 @Stateless
+@TransactionAttribute(TransactionAttributeType.REQUIRES_NEW)
 public class MailProducerJMS {
 
     @Resource(mappedName = "java:jboss/exported/jms/queue/mail")
@@ -33,7 +36,6 @@ public class MailProducerJMS {
                 } catch (JMSException e) {
                     e.printStackTrace();
                 }
-
         }
     }
 

@@ -6,10 +6,7 @@ import exceptions.NotMergedEntityException;
 import exceptions.NotPersistedEntityException;
 import model.Employee;
 
-import javax.ejb.EJB;
-import javax.ejb.Local;
-import javax.ejb.Stateless;
-import javax.persistence.criteria.CriteriaBuilder;
+import javax.ejb.*;
 import javax.ws.rs.NotFoundException;
 import java.util.List;
 
@@ -21,27 +18,24 @@ public class EmployeeServiceImpl implements EmployeeService{
     private EmployeeDAO dao;
 
     @Override
-    public  void createEmployee(Employee employee) throws NotPersistedEntityException {
-
-        dao.createEmployee(employee);
+    @TransactionAttribute(TransactionAttributeType.REQUIRES_NEW)
+    public  boolean createEmployee(Employee employee) throws NotPersistedEntityException {
+        return dao.createEmployee(employee);
     }
 
     @Override
     public List<Employee> listEmployees() throws NotCreateNamedQueryException {
-
         return dao.listEmployees();
     }
 
     @Override
     public Employee findEmployeeById(Integer id) {
-
         return dao.findEmployeeById(id);
     }
 
 
     @Override
     public boolean updateEmployee(Employee employee) throws NotMergedEntityException {
-
         if(employee != null) {
             return dao.updateEmployee(employee);
         } else {
@@ -50,9 +44,8 @@ public class EmployeeServiceImpl implements EmployeeService{
     }
 
     @Override
-    public void deleteEmployee(Integer id) {
-
-        dao.deleteEmployee(id);
+    public boolean deleteEmployee(Integer id) {
+        return dao.deleteEmployee(id);
     }
 
 }

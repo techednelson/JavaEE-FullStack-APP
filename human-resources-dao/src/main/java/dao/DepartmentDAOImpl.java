@@ -25,9 +25,10 @@ public class DepartmentDAOImpl implements  DepartmentDAO {
     private Logger logger = LogManager.getLogger(DepartmentDAOImpl.class.getName());
 
     @Override
-    public void createDepartment(Department department) throws NotPersistedEntityException {
+    public boolean createDepartment(Department department) throws NotPersistedEntityException {
         try {
             entityManager.persist(department);
+            return true;
         } catch (Exception e) {
             throw new NotPersistedEntityException("Entity Manager failed to persist the department");
         }
@@ -57,19 +58,21 @@ public class DepartmentDAOImpl implements  DepartmentDAO {
     }
 
     @Override
-    public void updateDepartment(Department department) throws NotMergedEntityException {
+    public boolean updateDepartment(Department department) throws NotMergedEntityException {
 
         try {
             Department tempDepartment = findDepartmentById(department.getId());
             tempDepartment.setName(department.getName());
             tempDepartment.setAddress(department.getAddress());
+
+            return true;
         } catch (Exception e) {
            throw new NotMergedEntityException("Entity Manager failed to update department");
         }
     }
 
     @Override
-    public void deleteDepartment(Integer id) {
+    public boolean deleteDepartment(Integer id) {
 
         Department department = findDepartmentById(id);
 
@@ -78,7 +81,14 @@ public class DepartmentDAOImpl implements  DepartmentDAO {
             throw new NotFoundException("department not found");
         }
 
-        entityManager.remove(department);
+        try {
+            entityManager.remove(department);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return false;
     }
 
 }

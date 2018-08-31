@@ -1,16 +1,21 @@
 Manifest-Version: 1.0
 Archiver-Version: Plexus Archiver
 Built-By: nelson
-Class-Path: human-resources-service-1.0.jar lib/human-resources-persis
- tence-1.0.jar lib/javax.persistence-api-2.2.jar lib/jackson-databind-
- 2.9.4.jar lib/jackson-annotations-2.9.0.jar lib/jackson-core-2.9.4.ja
- r lib/human-resources-service-1.0.jar lib/human-resources-dao-1.0.jar
-  lib/human-resources-commons-1.0.jar lib/log4j-core-2.7.jar lib/log4j
- -api-2.7.jar lib/human-resources-persistence-1.0.jar lib/javax.persis
- tence-api-2.2.jar lib/jackson-databind-2.9.4.jar lib/jackson-annotati
- ons-2.9.0.jar lib/jackson-core-2.9.4.jar lib/log4j-core-2.7.jar lib/l
- og4j-api-2.7.jar lib/javaee-api-8.0.jar lib/javax.mail-1.6.0.jar lib/
- activation-1.1.jar lib/human-resources-commons-1.0.jar
+Class-Path: human-resources-service-1.0.jar lib/junit-4.11.jar lib/ham
+ crest-core-1.3.jar lib/mockito-core-2.10.0.jar lib/byte-buddy-1.7.4.j
+ ar lib/byte-buddy-agent-1.7.4.jar lib/objenesis-2.6.jar lib/resteasy-
+ client-3.0.10.Final.jar lib/resteasy-jackson-provider-3.0.10.Final.ja
+ r lib/jackson-core-asl-1.9.12.jar lib/jackson-mapper-asl-1.9.12.jar l
+ ib/jackson-jaxrs-1.9.12.jar lib/jackson-xc-1.9.12.jar lib/human-resou
+ rces-persistence-1.0.jar lib/javax.persistence-api-2.2.jar lib/jackso
+ n-databind-2.9.4.jar lib/jackson-annotations-2.9.0.jar lib/jackson-co
+ re-2.9.4.jar lib/human-resources-service-1.0.jar lib/human-resources-
+ dao-1.0.jar lib/human-resources-commons-1.0.jar lib/log4j-core-2.7.ja
+ r lib/log4j-api-2.7.jar lib/human-resources-persistence-1.0.jar lib/j
+ avax.persistence-api-2.2.jar lib/jackson-databind-2.9.4.jar lib/jacks
+ on-annotations-2.9.0.jar lib/jackson-core-2.9.4.jar lib/log4j-core-2.
+ 7.jar lib/log4j-api-2.7.jar lib/javaee-api-8.0.jar lib/javax.mail-1.6
+ .0.jar lib/activation-1.1.jar lib/human-resources-commons-1.0.jar
 Created-By: Apache Maven 3.5.2
 Build-Jdk: 1.8.0_162
 

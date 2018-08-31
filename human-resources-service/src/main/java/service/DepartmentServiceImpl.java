@@ -20,9 +20,9 @@ public class DepartmentServiceImpl implements DepartmentService {
     private DepartmentDAO dao;
 
     @Override
-    public void createDepartment(Department department) throws NotPersistedEntityException {
+    public boolean createDepartment(Department department) throws NotPersistedEntityException {
 
-        dao.createDepartment(department);
+        return dao.createDepartment(department);
     }
 
     @Override
@@ -39,19 +39,19 @@ public class DepartmentServiceImpl implements DepartmentService {
 
 
     @Override
-    public void updateDepartment(Department department) throws NotMergedEntityException {
+    public boolean updateDepartment(Department department) throws NotMergedEntityException {
 
         if(department != null) {
-            dao.updateDepartment(department);
+            return dao.updateDepartment(department);
         } else {
             throw new NotFoundException("Could not find department ");
         }
     }
 
     @Override
-    public void deleteDepartment(Integer id) {
+    public boolean deleteDepartment(Integer id) {
 
-        dao.deleteDepartment(id);
+        return dao.deleteDepartment(id);
     }
 
 }

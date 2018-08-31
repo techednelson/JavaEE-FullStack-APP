@@ -10,7 +10,7 @@ import java.util.List;
 
 public interface EmployeeDAO {
 
-    void createEmployee(Employee employee) throws NotPersistedEntityException;
+    boolean createEmployee(Employee employee) throws NotPersistedEntityException;
 
     List<Employee> listEmployees() throws NotCreateNamedQueryException;
 
@@ -18,6 +18,6 @@ public interface EmployeeDAO {
 
     boolean updateEmployee(Employee employee) throws NotMergedEntityException;
 
-    void deleteEmployee(Integer id);
+    boolean deleteEmployee(Integer id);
 
 }

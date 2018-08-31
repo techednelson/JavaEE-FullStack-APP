@@ -20,6 +20,17 @@
             <artifactId>javaee-api</artifactId>
         </dependency>
         <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>compile</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
             <groupId>final-project-javaee-app</groupId>
             <artifactId>human-resources-persistence</artifactId>
             <version>${project.version}</version>

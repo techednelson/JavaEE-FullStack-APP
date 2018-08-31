@@ -10,13 +10,13 @@ import java.util.List;
 
 public interface DepartmentService {
 
-    void createDepartment(Department department) throws NotPersistedEntityException;
+    boolean createDepartment(Department department) throws NotPersistedEntityException;
 
     List<Department> listDepartments() throws NotCreateNamedQueryException;
 
     Department findDepartmentById(Integer id);
 
-    void updateDepartment(Department department) throws  NotMergedEntityException;
-    void deleteDepartment(Integer id);
+    boolean updateDepartment(Department department) throws  NotMergedEntityException;
+    boolean deleteDepartment(Integer id);
 
 }

@@ -1,11 +1,10 @@
 package jms;
 
-import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
-import javax.ejb.Singleton;
+import javax.ejb.Stateless;
 import javax.jms.*;
 
-@Singleton
+@Stateless
 public class MailProducerJMS {
 
     @Resource(mappedName = "java:jboss/exported/jms/queue/mail")
@@ -14,7 +13,6 @@ public class MailProducerJMS {
     @Resource(mappedName = "java:/JmsXA")
     private ConnectionFactory connectionFactory;
 
-    @PostConstruct
     public void sendMessage(String mailMSG) {
         Connection connection = null;
         try {
@@ -35,6 +33,7 @@ public class MailProducerJMS {
                 } catch (JMSException e) {
                     e.printStackTrace();
                 }
+
         }
     }
 

@@ -3,6 +3,7 @@ package rest.boundary;
 import exceptions.NotCreateNamedQueryException;
 import exceptions.NotMergedEntityException;
 import exceptions.NotPersistedEntityException;
+import jms.MailProducerJMS;
 import model.Employee;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -12,6 +13,8 @@ import service.EmployeeService;
 
 import javax.ejb.EJB;
 import javax.ejb.Stateless;
+import javax.ejb.TransactionAttribute;
+import javax.ejb.TransactionAttributeType;
 import javax.inject.Inject;
 import java.util.List;
 
@@ -21,6 +24,9 @@ public class EmployeeBoundary {
     @EJB
     private EmployeeService service;
 
+    @EJB
+    private MailProducerJMS mailProducerJMS;
+
     @Inject
     private ResourcesValidator resourcesValidator;
 
@@ -29,7 +35,7 @@ public class EmployeeBoundary {
     public Employee registerEmployee(Employee employee) throws ValidationErrorsException, InvalidLocationException, NotPersistedEntityException {
 
         logger.info("Validating employee before executing create employee service");
-        String validationErrors =resourcesValidator.validateEntity(employee);
+        String validationErrors = resourcesValidator.validateEntity(employee);
 
         if(validationErrors != null) {
 
@@ -39,7 +45,11 @@ public class EmployeeBoundary {
             throw new InvalidLocationException("The location is out of range");
         }
 
-        service.createEmployee(employee);
+        if(service.createEmployee(employee)) {
+            logger.info("Sending confirmation message");
+            mailProducerJMS.sendMessage("create");
+        }
+
         return employee;
     }
 
@@ -53,17 +63,15 @@ public class EmployeeBoundary {
         return service.findEmployeeById(id);
     }
 
-    public boolean updateEmployee(Employee employee) throws NotMergedEntityException {
+    public void updateEmployee(Employee employee) throws NotMergedEntityException {
 
-        return service.updateEmployee(employee);
+        if(service.updateEmployee(employee)) {
+            mailProducerJMS.sendMessage("update");
+        }
     }
 
     public void deleteEmployee(Integer id) {
-
         service.deleteEmployee(id);
     }
-
-
-
 
 }

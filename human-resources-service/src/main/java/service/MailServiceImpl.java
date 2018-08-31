@@ -21,7 +21,7 @@ public class MailServiceImpl implements MailService {
     private Logger logger = LogManager.getLogger(MailServiceImpl.class.getName());
 
     @Override
-    public void sendMail(TextMessage message) {
+    public boolean sendMail(TextMessage message) {
         Mail mail = new Mail();
 
         try {
@@ -33,9 +33,12 @@ public class MailServiceImpl implements MailService {
             mail.setTimeStamp(new Date());
             dao.create(mail);
             logger.info("mail persistent");
+            return true;
         } catch (Exception e) {
             e.printStackTrace();
             logger.error("mail persistent failed");
         }
+
+        return false;
     }
 }

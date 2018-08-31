@@ -17,11 +17,14 @@ public class MailDAOImpl implements MailDAO {
     private EntityManager entityManager;
 
     @Override
-    public void create(Mail mail) throws NotPersistedEntityException {
+    public boolean create(Mail mail) throws NotPersistedEntityException {
         try {
             entityManager.persist(mail);
+            return true;
         } catch (Exception e) {
-            throw new NotPersistedEntityException("Entity Manager failed persist mail message");
+            throw new NotPersistedEntityException(
+                    "Entity Manager failed persist mail message"
+            );
         }
     }
 }

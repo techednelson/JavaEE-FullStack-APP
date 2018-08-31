@@ -7,6 +7,6 @@ import javax.ejb.Local;
 
 public interface MailDAO {
 
-    void create(Mail mail) throws NotPersistedEntityException;
+    boolean create(Mail mail) throws NotPersistedEntityException;
 
 }

@@ -24,14 +24,16 @@ public class EmployeeDAOImpl implements EmployeeDAO {
     private Logger logger = LogManager.getLogger(DepartmentDAOImpl.class.getName());
 
     @Override
-    public void createEmployee(Employee employee) throws NotPersistedEntityException {
+    public boolean createEmployee(Employee employee) throws NotPersistedEntityException {
 
         try {
             entityManager.persist(employee);
+            return true;
         } catch (Exception e) {
             throw new NotPersistedEntityException("Entity Manager failed to persist the employee");
         }
     }
+
 
     @Override
     public List<Employee> listEmployees() throws NotCreateNamedQueryException {
@@ -77,7 +79,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
     }
 
     @Override
-    public void deleteEmployee(Integer id) {
+    public boolean deleteEmployee(Integer id) {
         Employee employee = findEmployeeById(id);
 
         if (employee == null) {
@@ -85,7 +87,14 @@ public class EmployeeDAOImpl implements EmployeeDAO {
             throw new NotFoundException("employee not found");
         }
 
-        entityManager.remove(employee);
+        try {
+            entityManager.remove(employee);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return false;
     }
 
 }
